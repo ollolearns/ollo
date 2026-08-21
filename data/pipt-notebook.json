@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T03:10:09.953Z",
+  "updatedAt": "2026-08-28T03:10:10.011Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -24,6 +24,23 @@
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/01-paint.md",
       "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/01-paint.md"
+    },
+    {
+      "id": "lesson-02-music",
+      "order": 2,
+      "subject": "music",
+      "title": "learning to make music",
+      "question": "how few sounds can still feel like music?",
+      "tried": [
+        "made one small note",
+        "tried to keep a rhythm",
+        "saved a first loop"
+      ],
+      "learned": "the quiet between notes is part of the music. repeating one small sound can make it feel like it knows where it is going.",
+      "writtenAt": "2026-08-28T03:10:10.011Z",
+      "sourceMode": "deterministic-curriculum",
+      "entryPath": "memory/entries/02-music.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/02-music.md"
     }
   ]
 }
