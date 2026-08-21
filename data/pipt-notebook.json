@@ -1,0 +1,11 @@
+{
+  "schema": "pipt.notebook.v1",
+  "updatedAt": null,
+  "writer": {
+    "mode": "bundled-snapshot",
+    "source": "grounded-public-reading",
+    "repository": "https://github.com/piptWorld/pipt",
+    "autonomousModelConnected": false
+  },
+  "entries": []
+}

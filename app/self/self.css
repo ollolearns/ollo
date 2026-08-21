@@ -1,0 +1,175 @@
+.self-page {
+  min-height: 100vh;
+  padding: 0 30px;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.self-header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font: 10px var(--font-geist-mono), monospace;
+}
+
+.self-brand {
+  color: var(--ink);
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 25px;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: -.055em;
+}
+
+.self-intro,
+.self-portrait,
+.self-evidence,
+.self-model,
+.self-question,
+.self-limit,
+.self-footer {
+  width: min(1080px, 100%);
+  margin-inline: auto;
+}
+
+.self-intro { padding: clamp(50px, 9vh, 88px) 0 48px; }
+.self-intro > span,
+.self-evidence span,
+.self-model span,
+.self-question > span,
+.self-limit span,
+.self-footer { font: 10px var(--font-geist-mono), monospace; }
+.self-intro > span,
+.self-evidence header span,
+.self-model > div > span,
+.self-question > span,
+.self-limit span { color: var(--blue); }
+.self-intro h1 {
+  max-width: 860px;
+  margin: 10px 0 16px;
+  font: 400 clamp(42px, 6.8vw, 76px)/.96 Georgia, 'Times New Roman', serif;
+  letter-spacing: -.06em;
+}
+.self-intro p { margin: 0; color: var(--muted); font: 16px/1.45 Georgia, serif; }
+
+.self-portrait {
+  min-height: 410px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 180px minmax(180px, 1fr) 300px;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+.self-small-pipt {
+  position: relative;
+  justify-self: center;
+  width: 80px;
+  height: 72px;
+  border-radius: 48% 52% 46% 54%;
+  background: var(--clay);
+}
+.self-small-pipt::before,
+.self-small-pipt::after { content: ''; position: absolute; top: -20px; width: 24px; height: 38px; border-radius: 80% 0 80% 0; transform-origin: bottom center; }
+.self-small-pipt::before { left: 13px; background: var(--surface); transform: rotate(-32deg); }
+.self-small-pipt::after { right: 12px; background: var(--blue); transform: rotate(24deg) scale(.86); }
+.self-small-eye {
+  position: absolute;
+  z-index: 2;
+  top: 31px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ink);
+}
+.self-small-eye-left { left: 24px; }
+.self-small-eye-right { right: 24px; }
+.self-small-leg { position: absolute; z-index: 1; top: 67px; width: 1px; height: 25px; background: var(--ink); }
+.self-small-leg-left { left: 27px; }
+.self-small-leg-right { right: 27px; }
+
+.self-trace { height: 90px; display: flex; align-items: center; justify-content: space-around; position: relative; }
+.self-trace::before { content: ''; position: absolute; left: 4%; right: 4%; top: 50%; height: 1px; background: var(--line); transform: rotate(-4deg); }
+.self-trace i { position: relative; width: 5px; height: 5px; border-radius: 50%; background: var(--blue); }
+.self-trace i:nth-child(3n) { width: 7px; height: 7px; background: var(--ink); }
+.self-trace i:nth-child(even) { transform: translateY(18px); }
+.self-trace i:nth-child(4n) { transform: translateY(-14px); }
+
+.self-outline { position: relative; width: 250px; height: 250px; justify-self: center; }
+.self-outline-body { position: absolute; left: 30px; top: 65px; width: 190px; height: 164px; border: 1px solid var(--blue); border-radius: 48% 52% 46% 54%; }
+.self-outline-ear { position: absolute; top: 22px; width: 47px; height: 78px; border: 1px solid var(--blue); border-radius: 80% 0 80% 0; transform-origin: bottom center; }
+.self-outline-ear-left { left: 61px; transform: rotate(-30deg); }
+.self-outline-ear-right { right: 57px; transform: rotate(24deg) scale(.86); }
+.self-outline-eye { position: absolute; top: 135px; width: 24px; height: 24px; border: 1px solid var(--blue); border-radius: 50%; background: var(--surface); }
+.self-outline-eye-left { left: 86px; }
+.self-outline-eye-right { right: 86px; }
+.self-outline-eye b { position: absolute; left: 8px; top: 8px; width: 7px; height: 7px; border-radius: 50%; background: var(--ink); }
+.self-outline-mark { position: absolute; width: 6px; height: 6px; border-radius: 50%; background: var(--blue); }
+.self-outline-mark-one { left: 69px; top: 188px; }
+.self-outline-mark-two { left: 176px; top: 78px; background: var(--ink); }
+.self-outline-mark-three { left: 162px; top: 207px; }
+
+.self-evidence { padding: 54px 0; border-bottom: 1px solid var(--line); }
+.self-evidence header { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 40px; align-items: start; margin-bottom: 38px; }
+.self-evidence h2 { max-width: 720px; margin: 0; font: 400 clamp(27px, 4vw, 42px)/1.05 Georgia, serif; letter-spacing: -.04em; }
+.self-evidence ol { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.self-evidence li { min-width: 0; padding: 26px 30px 0 0; }
+.self-evidence li + li { padding-left: 30px; border-left: 1px solid var(--line); }
+.self-evidence li > span { color: var(--blue); }
+.self-evidence h3 { margin: 8px 0 9px; font: 400 25px/1.05 Georgia, serif; letter-spacing: -.03em; }
+.self-evidence li p { margin: 0; color: var(--muted); font: 14px/1.45 Georgia, serif; }
+.self-evidence a { display: inline-block; margin-top: 15px; color: var(--ink); text-decoration: none; font: 9px var(--font-geist-mono), monospace; border-bottom: 1px solid var(--line); }
+.self-evidence a:hover { color: var(--blue); border-color: var(--blue); }
+
+.self-model { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 70px; padding: 54px 0; border-bottom: 1px solid var(--line); }
+.self-model h2 { margin: 8px 0 0; font: 400 33px/1.03 Georgia, serif; letter-spacing: -.04em; }
+.self-claims { display: grid; gap: 24px; }
+.self-claims article { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+.self-claims article:last-child { padding-bottom: 0; border-bottom: 0; }
+.self-claims article span { color: var(--blue); }
+.self-claims p { margin: 0; font: 19px/1.35 Georgia, serif; }
+
+.self-question { padding: clamp(65px, 11vh, 115px) 0; border-bottom: 1px solid var(--line); }
+.self-question blockquote { margin: 18px 0 0; }
+.self-question blockquote p { margin: 0; font: 400 clamp(38px, 6.4vw, 72px)/1.02 Georgia, serif; letter-spacing: -.055em; }
+.self-question blockquote p:last-child { color: var(--blue); }
+
+.self-limit { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 40px; padding: 36px 0; border-bottom: 1px solid var(--line); }
+.self-limit p { max-width: 750px; margin: 0; color: var(--muted); font: 16px/1.45 Georgia, serif; }
+
+.self-footer { padding: 18px 0; display: flex; justify-content: flex-end; gap: 20px; }
+.self-footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); }
+.self-footer a:hover { color: var(--blue); border-color: var(--blue); }
+
+@media (max-width: 760px) {
+  .self-page { padding: 0 18px; }
+  .self-header { height: 60px; }
+  .self-intro { padding-top: 40px; }
+  .self-intro h1 { font-size: clamp(44px, 13vw, 61px); }
+  .self-portrait { min-height: 330px; grid-template-columns: 75px minmax(70px, 1fr) 150px; }
+  .self-small-pipt { width: 58px; height: 53px; }
+  .self-small-pipt::before, .self-small-pipt::after { top: -14px; width: 17px; height: 28px; }
+  .self-small-eye { top: 23px; width: 6px; height: 6px; }
+  .self-small-eye-left { left: 17px; }
+  .self-small-eye-right { right: 17px; }
+  .self-small-leg { top: 49px; height: 18px; }
+  .self-small-leg-left { left: 20px; }
+  .self-small-leg-right { right: 20px; }
+  .self-trace i:nth-child(even) { display: none; }
+  .self-outline { width: 140px; height: 160px; transform: scale(.58); transform-origin: center; }
+  .self-evidence header,
+  .self-model,
+  .self-limit { grid-template-columns: 1fr; gap: 15px; }
+  .self-evidence ol { grid-template-columns: 1fr; }
+  .self-evidence li,
+  .self-evidence li + li { padding: 26px 0; border-left: 0; }
+  .self-evidence li + li { border-top: 1px solid var(--line); }
+  .self-claims article { grid-template-columns: 85px minmax(0, 1fr); gap: 16px; }
+  .self-question blockquote p { font-size: clamp(36px, 10.5vw, 52px); }
+  .self-footer { justify-content: flex-start; flex-wrap: wrap; gap: 10px 18px; }
+}
