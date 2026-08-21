@@ -1,11 +1,29 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": null,
+  "updatedAt": "2026-08-28T03:10:09.953Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
     "repository": "https://github.com/piptWorld/pipt",
     "autonomousModelConnected": false
   },
-  "entries": []
+  "entries": [
+    {
+      "id": "lesson-01-paint",
+      "order": 1,
+      "subject": "paint",
+      "title": "learning to paint",
+      "question": "can a color feel different because of what is beside it?",
+      "tried": [
+        "put blue near the edge",
+        "tried a line that bends",
+        "saved a first painting"
+      ],
+      "learned": "blue feels louder when I leave it alone. a bent line can make the empty part of a picture move.",
+      "writtenAt": "2026-08-28T03:10:09.953Z",
+      "sourceMode": "deterministic-curriculum",
+      "entryPath": "memory/entries/01-paint.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/01-paint.md"
+    }
+  ]
 }
