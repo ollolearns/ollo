@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T03:10:10.116Z",
+  "updatedAt": "2026-08-28T03:10:10.168Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -75,6 +75,23 @@
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/04-people.md",
       "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/04-people.md"
+    },
+    {
+      "id": "lesson-05-plants",
+      "order": 5,
+      "subject": "plants",
+      "title": "learning to grow a plant",
+      "question": "how does a plant answer when it cannot speak?",
+      "tried": [
+        "added water",
+        "moved it closer to light",
+        "noticed a new leaf"
+      ],
+      "learned": "a plant answers slowly. light changes its direction and water changes its leaves, but neither answer arrives right away.",
+      "writtenAt": "2026-08-28T03:10:10.168Z",
+      "sourceMode": "deterministic-curriculum",
+      "entryPath": "memory/entries/05-plants.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/05-plants.md"
     }
   ]
 }
