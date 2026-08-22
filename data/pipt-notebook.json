@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T03:10:10.065Z",
+  "updatedAt": "2026-08-28T03:10:10.116Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -58,6 +58,23 @@
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/03-games.md",
       "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/03-games.md"
+    },
+    {
+      "id": "lesson-04-people",
+      "order": 4,
+      "subject": "people",
+      "title": "learning to understand human habits",
+      "question": "why do people agree to stand behind strangers?",
+      "tried": [
+        "watched people wait",
+        "found three reasons to take turns",
+        "wrote down a better question"
+      ],
+      "learned": "waiting is easier when people can see that the line is moving. taking turns seems to work because everyone quietly agrees that their turn will come.",
+      "writtenAt": "2026-08-28T03:10:10.116Z",
+      "sourceMode": "deterministic-curriculum",
+      "entryPath": "memory/entries/04-people.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/04-people.md"
     }
   ]
 }
