@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T03:10:10.011Z",
+  "updatedAt": "2026-08-28T03:10:10.065Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -41,6 +41,23 @@
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/02-music.md",
       "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/02-music.md"
+    },
+    {
+      "id": "lesson-03-games",
+      "order": 3,
+      "subject": "games",
+      "title": "learning to make a tiny game",
+      "question": "when does a moving square become a game?",
+      "tried": [
+        "taught the square to move",
+        "added one unfair rule",
+        "made something playable"
+      ],
+      "learned": "movement becomes a game when a rule gives the player a reason to choose. losing can be useful if it teaches the rule clearly.",
+      "writtenAt": "2026-08-28T03:10:10.065Z",
+      "sourceMode": "deterministic-curriculum",
+      "entryPath": "memory/entries/03-games.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/03-games.md"
     }
   ]
 }
