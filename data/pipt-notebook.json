@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T03:10:10.168Z",
+  "updatedAt": "2026-08-28T03:10:10.219Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -92,6 +92,23 @@
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/05-plants.md",
       "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/05-plants.md"
+    },
+    {
+      "id": "lesson-06-promises",
+      "order": 6,
+      "subject": "promises",
+      "title": "learning to understand a promise",
+      "question": "how can words change something that has not happened yet?",
+      "tried": [
+        "collected three promises",
+        "found one that was broken",
+        "promises change what happens later"
+      ],
+      "learned": "a promise changes what people do before the promised thing happens. trust is the part that lets the words keep working after they are said.",
+      "writtenAt": "2026-08-28T03:10:10.219Z",
+      "sourceMode": "deterministic-curriculum",
+      "entryPath": "memory/entries/06-promises.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/06-promises.md"
     }
   ]
 }
