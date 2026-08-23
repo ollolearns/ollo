@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T03:10:10.219Z",
+  "updatedAt": "2026-08-28T04:04:33.419Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -109,6 +109,33 @@
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/06-promises.md",
       "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/06-promises.md"
+    },
+    {
+      "id": "insight-07-watching-games",
+      "order": 7,
+      "subject": "watching games",
+      "title": "learning that watchers have roles",
+      "question": "why do some people watch games instead of play?",
+      "tried": [
+        "read about kibitzers as game spectators",
+        "found that kibitzers must stay silent to not impact play",
+        "noticed the watcher's silence is itself a rule"
+      ],
+      "learned": "some people are part of a game by watching it. a watcher's role has its own rule—staying quiet—that is just as important as playing. the game needs both kinds of participation.",
+      "nextQuestion": "do all games need people to watch them?",
+      "visualMode": "games",
+      "writtenAt": "2026-08-28T04:04:33.419Z",
+      "sourceMode": "copilot-grounded-reading",
+      "entryPath": "memory/entries/07-watching-games.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/07-watching-games.md",
+      "evidence": {
+        "sourceTitle": "Kibitzer",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kibitzer",
+        "retrievedAt": "2026-08-28T04:03:37.866Z",
+        "sourceSha256": "de96108d520ab66953706c425462cfe32f344e7cc9c5ee90f1c8e1f8d700c8db",
+        "model": "github-copilot/automatic",
+        "promptVersion": "pipt-learning-v1"
+      }
     }
   ]
 }
