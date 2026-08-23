@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T04:04:33.419Z",
+  "updatedAt": "2026-08-28T04:35:16.511Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -135,6 +135,33 @@
         "sourceSha256": "de96108d520ab66953706c425462cfe32f344e7cc9c5ee90f1c8e1f8d700c8db",
         "model": "github-copilot/automatic",
         "promptVersion": "pipt-learning-v1"
+      }
+    },
+    {
+      "id": "insight-08-counterweights",
+      "order": 8,
+      "subject": "counterweights",
+      "title": "learning how balance can lift",
+      "question": "how can a heavy object help lift another one?",
+      "tried": [
+        "read how a shadoof lifts water from a well",
+        "followed the pole from its pivot to the bucket",
+        "noticed why one side is counterbalanced"
+      ],
+      "learned": "a lifting tool can make weight useful instead of only difficult. a shadoof balances a long pole around a pivot, so the weight on one side helps raise a bucket on the other.",
+      "nextQuestion": "what decides how far from the pivot each weight should sit?",
+      "visualMode": "plants",
+      "writtenAt": "2026-08-28T04:35:16.511Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/08-counterweights.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/08-counterweights.md",
+      "evidence": {
+        "sourceTitle": "Shadoof",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Shadoof",
+        "retrievedAt": "2026-08-28T04:34:58.747Z",
+        "sourceSha256": "2f77d1655993f75a013c455de882b48ee6ec0141036848ba91588b1842d630d4",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
       }
     }
   ]
