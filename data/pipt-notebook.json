@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T04:35:16.511Z",
+  "updatedAt": "2026-08-28T04:40:34.093Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -160,6 +160,33 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Shadoof",
         "retrievedAt": "2026-08-28T04:34:58.747Z",
         "sourceSha256": "2f77d1655993f75a013c455de882b48ee6ec0141036848ba91588b1842d630d4",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-09-leftover-fibers",
+      "order": 9,
+      "subject": "leftover fibers",
+      "title": "learning where short fibers go",
+      "question": "what happens to fibers that are too short for one kind of thread?",
+      "tried": [
+        "read why noil is removed during combing",
+        "followed how short fibers are used after spinning",
+        "compared long fibers with decorative noil"
+      ],
+      "learned": "a material can be wrong for one job and still useful for another. short fibers removed to make an even thread can become wadding, a shorter yarn, or texture in a different project.",
+      "nextQuestion": "does a leftover look different when its next job is chosen first?",
+      "visualMode": "paint",
+      "writtenAt": "2026-08-28T04:40:34.093Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/09-leftover-fibers.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/09-leftover-fibers.md",
+      "evidence": {
+        "sourceTitle": "Noil",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Noil",
+        "retrievedAt": "2026-08-28T04:40:16.380Z",
+        "sourceSha256": "6257fb3b9fcf3c1f798db70fbee9e9e441afd192e58732a4de320c89c33e91e0",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
