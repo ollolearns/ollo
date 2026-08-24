@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T04:48:12.718Z",
+  "updatedAt": "2026-08-28T04:53:29.577Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -214,6 +214,33 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Blue_Wool_Scale",
         "retrievedAt": "2026-08-28T04:47:45.650Z",
         "sourceSha256": "6fc19ff28b29c71978768262ebf820e1f0ba10ff3b2938dc75c45249db652cd7",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-11-needle-threaders",
+      "order": 11,
+      "subject": "needle threaders",
+      "title": "learning why a guide goes first",
+      "question": "how does a needle threader help thread pass through a tiny eye?",
+      "tried": [
+        "read the order of the threading steps",
+        "traced what the fine wire loop does",
+        "compared pushing the thread with pulling it"
+      ],
+      "learned": "a guide can go somewhere first when the thing you want to move is hard to push through. a needle threader sends a fine wire loop through the needle eye, then uses that loop to pull the thread back through.",
+      "nextQuestion": "what other difficult passages get easier when a smaller guide goes first?",
+      "visualMode": "threading",
+      "writtenAt": "2026-08-28T04:53:29.577Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/11-needle-threaders.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/11-needle-threaders.md",
+      "evidence": {
+        "sourceTitle": "Needle threader",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Needle_threader",
+        "retrievedAt": "2026-08-28T04:52:50.016Z",
+        "sourceSha256": "bc30f07db5d35158fa4abd4dc768ef3de5afe5a39137ee98b4e2803684f044f8",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
