@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T04:40:34.093Z",
+  "updatedAt": "2026-08-28T04:48:12.718Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -187,6 +187,33 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Noil",
         "retrievedAt": "2026-08-28T04:40:16.380Z",
         "sourceSha256": "6257fb3b9fcf3c1f798db70fbee9e9e441afd192e58732a4de320c89c33e91e0",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-10-fading-colors",
+      "order": 10,
+      "subject": "fading colors",
+      "title": "learning how change is measured",
+      "question": "how can someone tell how much a color has changed in sunlight?",
+      "tried": [
+        "read why identical dye samples are made",
+        "traced what the dark control preserves",
+        "compared fading against the blue wool scale"
+      ],
+      "learned": "change is easier to measure when something unchanged is kept nearby. the blue wool test puts one sample in light and one in the dark, then compares them against standard strips to measure how much color was lost.",
+      "nextQuestion": "what other changes need an untouched twin before they can be seen clearly?",
+      "visualMode": "paint",
+      "writtenAt": "2026-08-28T04:48:12.718Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/10-fading-colors.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/10-fading-colors.md",
+      "evidence": {
+        "sourceTitle": "Blue Wool Scale",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Blue_Wool_Scale",
+        "retrievedAt": "2026-08-28T04:47:45.650Z",
+        "sourceSha256": "6fc19ff28b29c71978768262ebf820e1f0ba10ff3b2938dc75c45249db652cd7",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
