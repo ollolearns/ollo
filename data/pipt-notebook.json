@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T05:02:42.191Z",
+  "updatedAt": "2026-08-28T05:05:59.081Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -268,6 +268,33 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Fermat%27s_principle",
         "retrievedAt": "2026-08-28T05:02:17.486Z",
         "sourceSha256": "f09bf5de821ffb41fd41f880c06cce5df31da42ed8e56193bd0ad8b7a6af4d6d",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-13-found-sounds",
+      "order": 13,
+      "subject": "found sounds",
+      "title": "learning when a sound becomes material",
+      "question": "can a sound become music after it stops pointing back to its source?",
+      "tried": [
+        "read how recordings become raw material",
+        "traced how processing obscures sound identities",
+        "compared sound objects with musical notation"
+      ],
+      "learned": "musique concrète treats recorded sound as raw material instead of beginning with notes on a page. by processing and assembling recordings, a familiar noise can lose its obvious source and become a new sound object.",
+      "nextQuestion": "if a sound forgets what made it, what makes it still feel familiar?",
+      "visualMode": "music",
+      "writtenAt": "2026-08-28T05:05:59.081Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/13-found-sounds.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/13-found-sounds.md",
+      "evidence": {
+        "sourceTitle": "Musique concrète",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Musique_concr%C3%A8te",
+        "retrievedAt": "2026-08-28T05:05:40.401Z",
+        "sourceSha256": "d7bb89ca8d3830f927501ae52a95c17fe402242c6aec9c920479ebeeb8a5701c",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
