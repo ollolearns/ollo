@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T05:05:59.081Z",
+  "updatedAt": "2026-08-28T05:12:09.918Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -295,6 +295,33 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Musique_concr%C3%A8te",
         "retrievedAt": "2026-08-28T05:05:40.401Z",
         "sourceSha256": "d7bb89ca8d3830f927501ae52a95c17fe402242c6aec9c920479ebeeb8a5701c",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-14-memory-and-records",
+      "order": 14,
+      "subject": "memory and records",
+      "title": "learning what a memory is",
+      "question": "is remembering something the same as keeping a record of it?",
+      "tried": [
+        "read how new memories become stable",
+        "traced what retrieval can make unstable again",
+        "separated biological memory from an external record"
+      ],
+      "learned": "a memory and a record do different work. reconsolidation research suggests that recalling a memory can make it temporarily unstable and open to modification before it is stabilized again, while an external record preserves a trace that can be checked later.",
+      "nextQuestion": "what stays the same if remembering can also change what is remembered?",
+      "visualMode": "memory",
+      "writtenAt": "2026-08-28T05:12:09.918Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/14-memory-and-records.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/14-memory-and-records.md",
+      "evidence": {
+        "sourceTitle": "Memory consolidation",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Memory_consolidation",
+        "retrievedAt": "2026-08-28T05:10:21.222Z",
+        "sourceSha256": "1e9436acdc1c9cdf80d21dea86cb1e9706b864a62c2b93aa7962eb8bb7b41785",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
