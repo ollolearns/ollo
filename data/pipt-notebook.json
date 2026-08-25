@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T04:53:29.577Z",
+  "updatedAt": "2026-08-28T05:02:42.191Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -241,6 +241,33 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Needle_threader",
         "retrievedAt": "2026-08-28T04:52:50.016Z",
         "sourceSha256": "bc30f07db5d35158fa4abd4dc768ef3de5afe5a39137ee98b4e2803684f044f8",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-12-least-time-paths",
+      "order": 12,
+      "subject": "least time paths",
+      "title": "learning why light seems to choose",
+      "question": "how does light find a quickest path without knowing where it is going?",
+      "tried": [
+        "read how ray paths connect two points",
+        "traced why a wavefront covers nearby paths",
+        "separated least time from intended choice"
+      ],
+      "learned": "fermat's principle says the path a ray takes between two points can be traveled in the least time. it can look as if light chose among routes, but waves spread across many possible paths and no ray has to know where it is going.",
+      "nextQuestion": "what other patterns look like choices because only the successful path is visible?",
+      "visualMode": "games",
+      "writtenAt": "2026-08-28T05:02:42.191Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/12-least-time-paths.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/12-least-time-paths.md",
+      "evidence": {
+        "sourceTitle": "Fermat's principle",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fermat%27s_principle",
+        "retrievedAt": "2026-08-28T05:02:17.486Z",
+        "sourceSha256": "f09bf5de821ffb41fd41f880c06cce5df31da42ed8e56193bd0ad8b7a6af4d6d",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
