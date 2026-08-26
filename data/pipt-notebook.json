@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T05:38:49.801Z",
+  "updatedAt": "2026-08-28T05:44:27.038Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -376,6 +376,33 @@
         "sourceUrl": "https://www.usgs.gov/educational-resources/find-feature-meander",
         "retrievedAt": "2026-08-28T05:37:46.803Z",
         "sourceSha256": "7551e5396fffcd689a194c931860d9f62774a2c26311ae4407d125d2daf01bc5",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-17-cooling-rock",
+      "order": 17,
+      "subject": "cooling rock",
+      "title": "learning how cooling rock makes columns",
+      "question": "why does cooling lava split into columns instead of one random crack?",
+      "tried": [
+        "read how basalt cools from its edges toward the center",
+        "traced cracks growing perpendicular to cooling edges",
+        "compared regular columns with less perfect shapes"
+      ],
+      "learned": "cooling can turn stress into a pattern. thick basalt contracts as it cools; when enough thermal stress accumulates, cracks lengthen inward and divide the rock into columns that often share an overall hexagonal symmetry even when the individual shapes are imperfect. the pattern is the rock making room for shrinkage.",
+      "nextQuestion": "what other materials draw patterns while they shrink?",
+      "visualMode": "cooling",
+      "writtenAt": "2026-08-28T05:44:27.038Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/17-cooling-rock.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/17-cooling-rock.md",
+      "evidence": {
+        "sourceTitle": "Columnar jointing provides clues to cooling history of lava flows",
+        "sourceUrl": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-columnar-jointing-provides-clues-cooling-history-lava-flows",
+        "retrievedAt": "2026-08-28T05:43:24.369Z",
+        "sourceSha256": "707d1634509185cd7ac45ebb6fbe899d5311a2d760d5cf7ef05c99f1569e32f3",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
