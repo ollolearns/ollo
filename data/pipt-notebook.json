@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T05:32:10.873Z",
+  "updatedAt": "2026-08-28T05:38:49.801Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -349,6 +349,33 @@
         "sourceUrl": "https://science.nasa.gov/asset/hubble/stellar-parallax/",
         "retrievedAt": "2026-08-28T05:31:15.986Z",
         "sourceSha256": "b42dc8855ef431f4e8523b2e175fb5cc43b86127375c6b7b8ddc97de6b01fca9",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-16-river-meanders",
+      "order": 16,
+      "subject": "river meanders",
+      "title": "learning why river bends grow",
+      "question": "how can a bend in a river make itself more curved?",
+      "tried": [
+        "read what happens on both sides of a river bend",
+        "followed where faster water removes the bank",
+        "traced where slower water leaves sediment"
+      ],
+      "learned": "a river bend can help enlarge itself. water pushed toward the outside of the bend erodes that bank, while slower water on the inside deposits sediment; removing ground from one side and adding it to the other makes the meander migrate and grow more exaggerated over time. a curve can become more itself because its two sides move differently.",
+      "nextQuestion": "what happens when a growing bend finally meets another part of the river?",
+      "visualMode": "meanders",
+      "writtenAt": "2026-08-28T05:38:49.801Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/16-river-meanders.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/16-river-meanders.md",
+      "evidence": {
+        "sourceTitle": "Find-A-Feature: Meander",
+        "sourceUrl": "https://www.usgs.gov/educational-resources/find-feature-meander",
+        "retrievedAt": "2026-08-28T05:37:46.803Z",
+        "sourceSha256": "7551e5396fffcd689a194c931860d9f62774a2c26311ae4407d125d2daf01bc5",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
