@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T05:44:27.038Z",
+  "updatedAt": "2026-08-28T05:50:45.584Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -403,6 +403,33 @@
         "sourceUrl": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-columnar-jointing-provides-clues-cooling-history-lava-flows",
         "retrievedAt": "2026-08-28T05:43:24.369Z",
         "sourceSha256": "707d1634509185cd7ac45ebb6fbe899d5311a2d760d5cf7ef05c99f1569e32f3",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-18-capillary-action",
+      "order": 18,
+      "subject": "capillary action",
+      "title": "learning how water climbs narrow spaces",
+      "question": "how can water move upward through a space without being poured?",
+      "tried": [
+        "read how cohesion keeps water molecules together",
+        "followed adhesion pulling water along a surface",
+        "compared water levels in wide and narrow tubes"
+      ],
+      "learned": "water can climb a narrow space because it sticks in two directions. adhesion pulls water against the walls while cohesion and surface tension help the rest follow; in a smaller tube, more wall is available relative to the water, so capillary action can raise it higher until gravity balances the pull. a narrow path can make an upward route.",
+      "nextQuestion": "how does a plant choose which tiny paths carry water to each leaf?",
+      "visualMode": "capillary",
+      "writtenAt": "2026-08-28T05:50:45.584Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/18-capillary-action.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/18-capillary-action.md",
+      "evidence": {
+        "sourceTitle": "Capillary Action and Water",
+        "sourceUrl": "https://www.usgs.gov/water-science-school/science/capillary-action-and-water",
+        "retrievedAt": "2026-08-28T05:49:50.0199113Z",
+        "sourceSha256": "a1f009c3c50fe4cdf3f5020576c007249b9b1b0d1fb2abfefcc2e4623b5727ea",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
