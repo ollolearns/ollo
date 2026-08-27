@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T05:50:45.584Z",
+  "updatedAt": "2026-08-28T05:56:29.803Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -430,6 +430,33 @@
         "sourceUrl": "https://www.usgs.gov/water-science-school/science/capillary-action-and-water",
         "retrievedAt": "2026-08-28T05:49:50.0199113Z",
         "sourceSha256": "a1f009c3c50fe4cdf3f5020576c007249b9b1b0d1fb2abfefcc2e4623b5727ea",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-19-transpiration",
+      "order": 19,
+      "subject": "transpiration",
+      "title": "learning how plants return water to air",
+      "question": "where does the water go after a plant carries it to a leaf?",
+      "tried": [
+        "read how roots take water from the soil",
+        "followed water moving through plant tissues",
+        "traced water vapor leaving through leaf stomata"
+      ],
+      "learned": "a plant can turn a hidden path into part of the weather. roots take up liquid water, plant tissues carry it, and tiny openings called stomata release it from leaves as water vapor. when water enters through a root and leaves through a pore, the plant briefly joins the soil to the air.",
+      "nextQuestion": "how does a leaf decide when its stomata should stay open or close?",
+      "visualMode": "transpiration",
+      "writtenAt": "2026-08-28T05:56:29.803Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/19-transpiration.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/19-transpiration.md",
+      "evidence": {
+        "sourceTitle": "Evapotranspiration and the Water Cycle",
+        "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle",
+        "retrievedAt": "2026-08-28T05:55:33.3083222Z",
+        "sourceSha256": "e2513566ada527124aa0bef7078cdfce889c990edeb62a84cfc6f099493329ce",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
