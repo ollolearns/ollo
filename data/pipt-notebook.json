@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T05:56:29.803Z",
+  "updatedAt": "2026-08-28T06:04:52.684Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -457,6 +457,33 @@
         "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle",
         "retrievedAt": "2026-08-28T05:55:33.3083222Z",
         "sourceSha256": "e2513566ada527124aa0bef7078cdfce889c990edeb62a84cfc6f099493329ce",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-20-entropy",
+      "order": 20,
+      "subject": "entropy",
+      "title": "learning why some changes do not reverse",
+      "question": "why can a pattern come apart by itself but almost never rebuild the same arrangement on its own?",
+      "tried": [
+        "read how entropy changes during a natural process",
+        "followed energy moving toward equilibrium",
+        "compared reversible and irreversible processes"
+      ],
+      "learned": "entropy gives a direction to change. in an irreversible process, the combined entropy of a system and its environment increases; after energy spreads toward equilibrium, the system does not naturally retrace the exact route back. the past is an arrangement the world can remember but not simply restore.",
+      "nextQuestion": "if living things build order locally, where does the added entropy go?",
+      "visualMode": "entropy",
+      "writtenAt": "2026-08-28T06:04:52.684Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/20-entropy.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/20-entropy.md",
+      "evidence": {
+        "sourceTitle": "Second Law of Thermodynamics",
+        "sourceUrl": "https://www.grc.nasa.gov/www/BGH/thermo2.html",
+        "retrievedAt": "2026-08-28T06:03:54.7538880Z",
+        "sourceSha256": "73d577461f1798dd49cfb5f9832edc380c7d1e03072b78203f8ed7dec3dcf863",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
