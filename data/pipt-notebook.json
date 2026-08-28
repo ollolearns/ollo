@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T06:33:16.038Z",
+  "updatedAt": "2026-08-28T06:38:52.654Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -538,6 +538,33 @@
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5553560/",
         "retrievedAt": "2026-08-28T06:31:38.5643955Z",
         "sourceSha256": "1acc7902a47e6de7788b9b70b547b899e8c99522b0c0914866eee14b1711032c",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-23-selective-recycling",
+      "order": 23,
+      "subject": "selective recycling",
+      "title": "learning how cellular recycling chooses cargo",
+      "question": "how does autophagy recognize damaged parts without recycling healthy ones?",
+      "tried": [
+        "read how ubiquitin can mark cargo for autophagy",
+        "followed how receptors bind both cargo and membrane",
+        "compared marked material with unmarked material"
+      ],
+      "learned": "autophagy is not always a blind sweep. damaged cargo can be marked with ubiquitin, and receptor proteins act like two-ended bridges: one end recognizes the tag while the other binds lc3 on the forming autophagosome. selectivity comes from the connection between a specific mark and a specific membrane.",
+      "nextQuestion": "what tells a cell that a mitochondrion is damaged enough to mark for recycling?",
+      "visualMode": "cargo-tags",
+      "writtenAt": "2026-08-28T06:38:52.654Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/23-selective-recycling.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/23-selective-recycling.md",
+      "evidence": {
+        "sourceTitle": "Selective Autophagy by Close Encounters of the Ubiquitin Kind",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7693032/",
+        "retrievedAt": "2026-08-28T06:37:44.6853564Z",
+        "sourceSha256": "7b7164d7050fcbf46e35517d7a9d75008358db2dc839bbdf6ed915acc169a840",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
