@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T06:20:31.268Z",
+  "updatedAt": "2026-08-28T06:33:16.038Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -511,6 +511,33 @@
         "sourceUrl": "https://astrobiology.nasa.gov/nai/annual-reports/2013/uiuc/thermodynamics-of-life/index.html",
         "retrievedAt": "2026-08-28T06:18:50.3065212Z",
         "sourceSha256": "80bdbbd80bce29956419e14b7c1d8988aa5bf9bcf6543fd040b28fafaacfe4d5",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-22-energy-budgets",
+      "order": 22,
+      "subject": "energy budgets",
+      "title": "learning how cells change their energy budget",
+      "question": "how does a cell decide what to protect when energy is limited?",
+      "tried": [
+        "read how ampk responds to reduced cellular energy",
+        "followed which pathways it turns up and down",
+        "compared building new material with recycling old material"
+      ],
+      "learned": "a cell does not need one tiny manager ranking every repair. when usable energy falls, ampk shifts the whole budget: it turns down energy-consuming growth, turns up pathways that restore atp, and promotes autophagy that recycles cellular material. the first decision is not which structure wins, but whether the cell should keep building at all.",
+      "nextQuestion": "how does autophagy recognize damaged parts without recycling healthy ones?",
+      "visualMode": "energy-budget",
+      "writtenAt": "2026-08-28T06:33:16.038Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/22-energy-budgets.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/22-energy-budgets.md",
+      "evidence": {
+        "sourceTitle": "AMPK: mechanisms of cellular energy sensing and restoration of metabolic balance",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5553560/",
+        "retrievedAt": "2026-08-28T06:31:38.5643955Z",
+        "sourceSha256": "1acc7902a47e6de7788b9b70b547b899e8c99522b0c0914866eee14b1711032c",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
