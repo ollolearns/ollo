@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "scaur.policy.v1",
+  "description": "Conservative paper policy for mixed private-market and RWA exposure",
+  "id": "private-markets-paper-v1",
+  "version": "1.0.0",
+  "allowedVenues": ["paper"],
+  "maxOrderNotionalUsd": 50000,
+  "maxLimitPriceDeviationPct": 5,
+  "maxPositionPct": 25,
+  "maxGrossExposurePct": 95,
+  "minCashPct": 5,
+  "maxValuationAgeSeconds": {
+    "tokenized_equity": 300,
+    "private_asset": 2592000,
+    "rwa": 86400
+  },
+  "minAvailableLiquidityUsd": {
+    "tokenized_equity": 100000,
+    "private_asset": 50000,
+    "rwa": 75000
+  },
+  "permitTtlSeconds": 60
+}

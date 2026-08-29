@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "scaur.state.v1",
+  "capturedAt": "2026-07-20T12:00:00.000Z",
+  "accountId": "paper-fund-01",
+  "snapshotId": "paper-state-2026-07-20T12:00:00Z",
+  "portfolioValueUsd": 200000,
+  "cashUsd": 110000,
+  "positions": [
+    {
+      "assetId": "PRIVATE_AI",
+      "assetClass": "private_asset",
+      "marketValueUsd": 20000
+    },
+    {
+      "assetId": "TREASURY_RWA",
+      "assetClass": "rwa",
+      "marketValueUsd": 70000
+    }
+  ],
+  "assets": {
+    "PRIVATE_AI": {
+      "assetClass": "private_asset",
+      "eligible": true,
+      "priceUsd": 20,
+      "valuedAt": "2026-07-10T12:00:00.000Z",
+      "availableLiquidityUsd": 500000,
+      "venue": "paper"
+    },
+    "TREASURY_RWA": {
+      "assetClass": "rwa",
+      "eligible": true,
+      "priceUsd": 100,
+      "valuedAt": "2026-07-20T11:55:00.000Z",
+      "availableLiquidityUsd": 1000000,
+      "venue": "paper"
+    }
+  }
+}

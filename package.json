@@ -1,0 +1,45 @@
+{
+  "name": "@scaur/kernel",
+  "version": "0.7.0",
+  "description": "Deterministic financial controls and guarded MCP execution for autonomous agents.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "scaur": "./src/cli.js",
+    "scaur-mcp": "./src/mcp-server.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "demo": "node src/cli.js evaluate --policy examples/policy.json --state examples/state.json --intent examples/intent.json --at 2026-07-20T12:00:00.000Z",
+    "demo:cycle": "node scripts/demo-cycle.mjs",
+    "demo:gate": "node scripts/demo-policy-gate.mjs",
+    "demo:robinhood": "node scripts/demo-robinhood-order.mjs",
+    "mcp": "node src/mcp-server.js",
+    "mcp:research": "node src/mcp-server.js --config .scaur/live-config.json --mode research",
+    "mcp:live": "node src/mcp-server.js --config .scaur/live-config.json",
+    "configure": "node src/cli.js configure",
+    "research": "node scripts/demo-research.mjs",
+    "refresh:robinhood": "node src/cli.js refresh-robinhood",
+    "setup:robinhood": "node src/cli.js setup-robinhood",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.10"
+  },
+  "keywords": [
+    "agents",
+    "mcp",
+    "financial-controls",
+    "portfolio",
+    "risk",
+    "policy",
+    "robinhood"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  }
+}

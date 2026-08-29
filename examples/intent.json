@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "scaur.intent.v1",
+  "id": "intent-001",
+  "accountId": "paper-fund-01",
+  "assetId": "PRIVATE_AI",
+  "side": "BUY",
+  "quantity": 500,
+  "limitPriceUsd": 20,
+  "venue": "paper"
+}
