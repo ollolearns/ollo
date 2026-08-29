@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Scaur is a small control layer for financial agents: read-only equity research, deterministic policy, and guarded Robinhood execution.">
+  <meta property="og:title" content="Scaur — financial tools for agents">
+  <meta property="og:description" content="Research can read the market. Execution still has to pass policy.">
+  <meta property="og:image" content="assets/scaur-banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Scaur — financial tools for agents</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <a class="site-name" href="#top">
+      <img src="assets/scaur-mark.svg" alt="" width="25" height="25">
+      <span>scaur</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#tools">tools</a>
+      <a href="#boundary">boundary</a>
+      <a href="#status">status</a>
+      <a href="https://x.com/scaurlayer">x ↗</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <article class="document">
+      <section class="introduction" id="top">
+        <div class="intro-copy">
+          <p class="document-meta">Scaur / open source / codebase 0.7.0</p>
+          <h1>A small control layer<br>for financial agents.</h1>
+          <p class="abstract">Scaur gives an agent a few public-equity research tools and a narrow, policy-checked route to Robinhood. Research can read the market. Execution still has to pass policy.</p>
+          <p class="plain-links"><a href="#boundary">Read the boundary</a><a href="#proof">Inspect the records</a></p>
+        </div>
+        <figure class="brand-figure">
+          <img src="assets/scaur-mark.svg" alt="" width="180" height="180">
+          <figcaption>
+            <span>scaur</span>
+            <small>/skɔːr/ <i>noun</i><br>A steep cliff or rock face.</small>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="document-section" id="tools" aria-labelledby="tools-title">
+        <header class="section-label"><span>01</span><p>Research</p></header>
+        <div class="section-content">
+          <h2 id="tools-title">Start with the read-only part.</h2>
+          <p>Scaur can research one public equity or compare two to five in the same authenticated Robinhood session. Each result contains the underlying observations and a hash of the assembled evidence.</p>
+
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Tool</th><th>Input</th><th>Returns</th><th>Account authority</th></tr></thead>
+              <tbody>
+                <tr><td><code>scaur_research_equity</code></td><td>one symbol</td><td>quote, fundamentals, daily RSI, earnings, evidence hash</td><td>none</td></tr>
+                <tr><td><code>scaur_compare_equities</code></td><td>2–5 symbols</td><td>complete records, compact comparison, combined hash</td><td>none</td></tr>
+                <tr><td><code>scaur_live_order</code></td><td>one limit order</td><td>policy decision, then submission receipt if allowed</td><td>bounded and opt-in</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="note">The first two tools do not receive an account number, read portfolio data, or call an order tool. MCP tool identifiers use the <code>scaur_</code> namespace.</p>
+        </div>
+      </section>
+
+      <section class="document-section" id="boundary" aria-labelledby="boundary-title">
+        <header class="section-label"><span>02</span><p>Authority</p></header>
+        <div class="section-content">
+          <h2 id="boundary-title">An order follows one path.</h2>
+          <p>The operator chooses the account, policy, state, venue, credentials, and session limits when Scaur starts. The calling agent cannot change those values through an order request.</p>
+
+          <pre class="diagram" aria-label="Scaur authorization path">agent proposes an order
+          │
+          ▼
+┌──────────────────────────┐
+│          scaur           │
+│  policy + state + limits │
+└──────────────────────────┘
+          │
+          ├── denied ──────► decision receipt / stop
+          │
+          └── allowed ─────► exact-order permit
+                                      │
+                                      ▼
+                              credentialed relay</pre>
+
+          <div class="prose-columns">
+            <p><strong>The permit is specific.</strong> Change the symbol, side, quantity, price, account, or route and it no longer matches.</p>
+            <p><strong>The permit is consumed once.</strong> Reusing an approved action fails instead of creating a second order.</p>
+            <p><strong>The relay stays separate.</strong> Venue credentials never enter the agent-facing tool schema.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="document-section" id="proof" aria-labelledby="proof-title">
+        <header class="section-label"><span>03</span><p>Records</p></header>
+        <div class="section-content">
+          <h2 id="proof-title">What the system leaves behind.</h2>
+          <p>The useful output is not a dashboard. It is a small set of records another process can inspect or replay.</p>
+
+          <dl class="record-list">
+            <div><dt>Research evidence</dt><dd>Timestamped market observations and a domain-separated SHA-256 identifier.</dd></div>
+            <div><dt>Decision receipt</dt><dd>The exact checks that passed or failed and the facts used to evaluate them.</dd></div>
+            <div><dt>Execution permit</dt><dd>Short-lived, single-use authority bound to one order.</dd></div>
+            <div><dt>Event history</dt><dd>A local JSONL ledger whose entries are chained by hash.</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="document-section" aria-labelledby="comparison-title">
+        <header class="section-label"><span>04</span><p>Comparison</p></header>
+        <div class="section-content">
+          <h2 id="comparison-title">Two equities, one evidence trail.</h2>
+          <p>A validated AAPL/MSFT comparison returned two complete records and one combined hash. The important boundary is included in the result itself.</p>
+
+          <pre class="output"><code>{
+  "schemaVersion": "scaur.equity-comparison.v1",
+  "items": 2,
+  "accountDataRead": false,
+  "orderToolsCalled": false,
+  "combinedEvidenceHash": "sha256:…"
+}</code></pre>
+        </div>
+      </section>
+
+      <section class="document-section" id="status" aria-labelledby="status-title">
+        <header class="section-label"><span>05</span><p>Limits</p></header>
+        <div class="section-content">
+          <h2 id="status-title">The boundary is clearer than the roadmap.</h2>
+          <div class="status-lines">
+            <p><span>Built</span> read-only equity research, multi-equity comparison, deterministic policy checks, paper cycles, exact-order permits, and the event ledger.</p>
+            <p><span>Experimental</span> an explicitly armed Robinhood equity limit-order relay with operator-selected ceilings.</p>
+            <p><span>Not built</span> production custody and reconciliation, signed state, a multi-host event store, or Robinhood Chain registry and settlement adapters.</p>
+          </div>
+          <p class="note">Scaur is experimental software, not a broker or fund. Paper mode is the default. A successful live tool result means submitted, not filled.</p>
+        </div>
+      </section>
+
+      <section class="document-section run-section" id="run" aria-labelledby="run-title">
+        <header class="section-label"><span>06</span><p>Run locally</p></header>
+        <div class="section-content">
+          <h2 id="run-title">Use research mode first.</h2>
+          <pre class="output"><code>npm ci
+npm test
+npm run mcp:research</code></pre>
+          <p>Then ask the connected agent to use <code>scaur_compare_equities</code> and return the evidence.</p>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>scaur / 2026</p>
+    <p>Independent and not affiliated with Robinhood.</p>
+    <a href="https://x.com/scaurlayer">x.com/scaurlayer</a>
+  </footer>
+</body>
+</html>

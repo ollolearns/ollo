@@ -1,0 +1,9 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Scaur banner</title>
+  <rect width="1500" height="500" fill="#EDE9DC"/>
+  <path d="M120 82H1380" stroke="#C8C1B2"/>
+  <path d="M120 418H1380" stroke="#C8C1B2"/>
+
+  <text x="750" y="254" text-anchor="middle" fill="#2A2620" font-family="Georgia, 'Times New Roman', serif" font-size="116" font-weight="700" letter-spacing="-3.5">scaur</text>
+  <text x="750" y="307" text-anchor="middle" fill="#6F6A60" font-family="'IBM Plex Mono', 'Cascadia Mono', Consolas, monospace" font-size="18" letter-spacing="2.7">financial tools for agents</text>
+</svg>
