@@ -1,0 +1,26 @@
+name: Feature proposal
+description: Propose a focused protocol, policy, or paper-system improvement
+title: "proposal: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What concrete authorization or paper-system problem needs solving?
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Trust-boundary impact
+      description: Explain whether this expands, narrows, or leaves capital authority unchanged.
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: Proposed proof object or test
+      description: What receipt, invariant, or reproducible test demonstrates the feature?
+    validations:
+      required: true
