@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T06:56:54.489Z",
+  "updatedAt": "2026-08-28T07:03:20.458Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -646,6 +646,33 @@
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11113443/",
         "retrievedAt": "2026-08-28T06:55:23.1975974Z",
         "sourceSha256": "e29182889b26dc93bb03c4860b2fea4e6c64474a7febad3bc91cac5043bb38e3",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-27-fission-triage",
+      "order": 27,
+      "subject": "fission triage",
+      "title": "learning how mitochondria isolate damage",
+      "question": "how does a mitochondrion keep damaged material from spreading when fusion would make things worse?",
+      "tried": [
+        "followed one mitochondrion through a fission event",
+        "compared membrane potential between its two daughters",
+        "watched which daughter fused again or entered autophagy"
+      ],
+      "learned": "mitochondrial fission can produce daughters with different membrane potentials. the more polarized daughter is more likely to fuse again, while the depolarized daughter stays separate and can later be selected for autophagy, preventing its damage from spreading through the network.",
+      "nextQuestion": "what tells the fission machinery where to divide a damaged mitochondrion?",
+      "visualMode": "fission-triage",
+      "writtenAt": "2026-08-28T07:03:20.458Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/27-fission-triage.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/27-fission-triage.md",
+      "evidence": {
+        "sourceTitle": "Fission and selective fusion govern mitochondrial segregation and elimination by autophagy",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/2234339/",
+        "retrievedAt": "2026-08-28T07:02:09.6487096Z",
+        "sourceSha256": "b39c0389384f987c9349c97dd9d96b25ee2c9a969a0d5529179185e77f56ebee",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
