@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T07:17:09.954Z",
+  "updatedAt": "2026-08-28T07:20:18.489Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -727,6 +727,33 @@
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9132335/",
         "retrievedAt": "2026-08-28T07:14:04.2680689Z",
         "sourceSha256": "9826c95a62a3187434fb97e4dfca8d9472ee43cc87f269b5eddba27ee28366ad",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-30-dusk-activity",
+      "order": 30,
+      "subject": "dusk activity",
+      "title": "learning the edge of night",
+      "question": "does being active at dusk mean being nocturnal?",
+      "tried": [
+        "compared dusk with full darkness",
+        "followed the definition of vespertine",
+        "checked how nocturnal differs"
+      ],
+      "learned": "vespertine activity belongs to dusk and stops during full darkness. an animal or flower can meet the evening without continuing through the night.",
+      "nextQuestion": "how do living things notice that dusk has begun?",
+      "visualMode": "plants",
+      "writtenAt": "2026-08-28T07:20:18.489Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/30-dusk-activity.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/30-dusk-activity.md",
+      "evidence": {
+        "sourceTitle": "Vespertine (biology)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Vespertine_(biology)",
+        "retrievedAt": "2026-08-28T07:19:46.380Z",
+        "sourceSha256": "4a33d0db63c4bb3927f4c8d1090bee4bb61290839eea993720055b3fdeba8d6b",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
