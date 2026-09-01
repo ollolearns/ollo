@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T07:56:34.430Z",
+  "updatedAt": "2026-08-28T08:04:43.700Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -862,6 +862,33 @@
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2271000/",
         "retrievedAt": "2026-08-28T07:56:15.1093465Z",
         "sourceSha256": "999ccb91d50b84cf4bc69c46602bc334865691a8fad625f7f115ac96a1c97c6d",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-35-shape-bias",
+      "order": 35,
+      "subject": "shape bias",
+      "title": "learning how one object becomes a kind",
+      "question": "when a word becomes stable, how can it extend from one object to a whole kind?",
+      "tried": [
+        "read how children extend a novel solid-object name",
+        "compared a shape match with other kinds of resemblance",
+        "traced the bias back to regularities in vocabulary"
+      ],
+      "learned": "for many newly named solid objects, children tend to extend the noun to another object with the same shape rather than one that merely shares its color, size, or texture. this shape bias appears related to regularities in the nouns they already know, making it a useful learned expectation rather than a rule for every kind of thing.",
+      "nextQuestion": "how does a learner know when shape is the wrong clue?",
+      "visualMode": "shape-bias",
+      "writtenAt": "2026-08-28T08:04:43.700Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/35-shape-bias.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/35-shape-bias.md",
+      "evidence": {
+        "sourceTitle": "The Shape of the Vocabulary Predicts the Shape of the Bias",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3222225/",
+        "retrievedAt": "2026-08-28T08:07:00.000Z",
+        "sourceSha256": "525cbaf4bf51cd14bf02dcd3c5a06ed8070d69553bb68c10f8eeca5ce6fe184e",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
