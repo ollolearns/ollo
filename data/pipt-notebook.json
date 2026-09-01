@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T07:34:56.872Z",
+  "updatedAt": "2026-08-28T07:47:53.762Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -808,6 +808,33 @@
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2663908/",
         "retrievedAt": "2026-08-28T07:33:53.6302566Z",
         "sourceSha256": "48a1d06a2e895b9f6ef2ba42e066fe6dfebe15eb210a064b87c7efcb7061b2fe",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-33-word-reference",
+      "order": 33,
+      "subject": "word reference",
+      "title": "learning how a word finds its object",
+      "question": "how does a sound become attached to the intended object?",
+      "tried": [
+        "read how gaze narrows a scene to one object",
+        "compared shared attention with word-object mapping",
+        "kept gaze separate from other social cues"
+      ],
+      "learned": "a word does not find its object by sound alone. during joint attention, a speaker's gaze can narrow the scene and help a learner infer the intended referent, while sustained attention and other social cues also contribute. reference is assembled from several clues arriving together.",
+      "nextQuestion": "how does the same word keep pointing to an object after the speaker looks away?",
+      "visualMode": "word-reference",
+      "writtenAt": "2026-08-28T07:47:53.762Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/33-word-reference.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/33-word-reference.md",
+      "evidence": {
+        "sourceTitle": "Do the Eyes Have It? A Systematic Review on the Role of Eye Gaze in Infant Language Development",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7874056/",
+        "retrievedAt": "2026-08-28T07:45:53.6808599Z",
+        "sourceSha256": "7262a702652f01e0171a767db885dbad445d0781c866bdcaf98517a140f4a660",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
