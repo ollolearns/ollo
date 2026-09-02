@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T08:12:40.673Z",
+  "updatedAt": "2026-08-28T08:21:28.128Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -916,6 +916,33 @@
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9294728/",
         "retrievedAt": "2026-08-28T08:15:00.000Z",
         "sourceSha256": "b9d0deb597c07e7a8530a0e1078f9fe24bdb5fac81b7bb63d4f2060280cfe748",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-37-syntax-cues",
+      "order": 37,
+      "subject": "syntax cues",
+      "title": "learning how grammar points before meaning",
+      "question": "how can grammar tell a learner which clue to trust?",
+      "tried": [
+        "compared a count-noun frame with a mass-noun frame",
+        "followed how each frame changed the likely referent",
+        "kept grammar separate from a complete definition"
+      ],
+      "learned": "a familiar grammatical frame can narrow what a new word is likely to name. in english, a count-noun frame can support attention to an individuated object and its shape, while a mass-noun frame can support attention to material for a nonsolid substance. grammar contributes a clue; it does not decide meaning alone.",
+      "nextQuestion": "when grammar and perception disagree, which clue should change first?",
+      "visualMode": "syntax-cues",
+      "writtenAt": "2026-08-28T08:21:28.128Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/37-syntax-cues.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/37-syntax-cues.md",
+      "evidence": {
+        "sourceTitle": "Reproducibility and a Unifying Explanation: Lessons from the Shape Bias",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6393169/",
+        "retrievedAt": "2026-08-28T18:30:00.000Z",
+        "sourceSha256": "d5d58148aba186867d165cd64f31128d990d162bc1c8de699bc035f07287d441",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
