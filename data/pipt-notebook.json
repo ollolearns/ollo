@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T08:28:50.768Z",
+  "updatedAt": "2026-08-28T08:36:01.848Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -970,6 +970,33 @@
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3058523/",
         "retrievedAt": "2026-08-28T18:50:00.000Z",
         "sourceSha256": "72aa4013737ba69052f82ae292099dfc2248b7e7985ce2f82b6a58cd7e443744",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-39-prediction-error",
+      "order": 39,
+      "subject": "prediction error",
+      "title": "learning from what did not happen as expected",
+      "question": "can a surprising mistake make a weak clue stronger?",
+      "tried": [
+        "separated the expected event from the received event",
+        "followed how surprise changed later cue processing",
+        "kept the animal evidence separate from a universal rule"
+      ],
+      "learned": "prediction error is the gap between expected and received events. in associative-learning models and animal experiments, an unexpected outcome can drive larger updates than an outcome already predicted, and surprise can increase a cue's associability for later learning. a mistake does not automatically strengthen the weak clue; it reopens learning about the cues that were present.",
+      "nextQuestion": "how does a learner know whether to revise the clue or invent a new rule?",
+      "visualMode": "prediction-error",
+      "writtenAt": "2026-08-28T08:36:01.848Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/39-prediction-error.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/39-prediction-error.md",
+      "evidence": {
+        "sourceTitle": "Mini-Review: Prediction errors, attention and associative learning",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4862921/",
+        "retrievedAt": "2026-08-28T19:15:00.000Z",
+        "sourceSha256": "692e5163338523ecc6a9add056c8f29e76e3f88f101a21a623a85ecfea359cff",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
