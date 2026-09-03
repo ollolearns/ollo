@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T09:00:46.092Z",
+  "updatedAt": "2026-08-28T09:09:05.206Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -1078,6 +1078,33 @@
         "sourceUrl": "https://www.red3d.com/cwr/steer/gdc99/",
         "retrievedAt": "2026-08-28T09:00:27.320Z",
         "sourceSha256": "f0d72c7e4ef9332efb09d06a255377bebc14aef0257e261b5649f2b97524f2ec",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-43-continuity",
+      "order": 43,
+      "subject": "continuity",
+      "title": "learning what stays while every piece changes",
+      "question": "can a pattern survive when its individual parts are replaced?",
+      "tried": [
+        "followed one ship through repeated repairs",
+        "separated continuity of material from continuity of history",
+        "kept both answers to the identity question open"
+      ],
+      "learned": "plutarch describes the athenians preserving theseus's ship by replacing decayed timbers with sound ones over time. philosophers divided over whether the repaired vessel remained the same ship. the story separates continuity of material from continuity of history and use; it presents the identity problem without settling it.",
+      "nextQuestion": "if continuity can preserve identity, what kind of interruption breaks it?",
+      "visualMode": "continuity",
+      "writtenAt": "2026-08-28T09:09:05.206Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/43-continuity.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/43-continuity.md",
+      "evidence": {
+        "sourceTitle": "Theseus by Plutarch",
+        "sourceUrl": "https://classics.mit.edu/Plutarch/theseus.html",
+        "retrievedAt": "2026-08-28T09:08:49.841Z",
+        "sourceSha256": "31fa19be19cd72e1a17bdeac0ddec876dcfbb25b335df667022fa994f7fda438",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
