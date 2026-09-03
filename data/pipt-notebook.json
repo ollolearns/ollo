@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T08:36:01.848Z",
+  "updatedAt": "2026-08-28T08:43:41.212Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -997,6 +997,33 @@
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4862921/",
         "retrievedAt": "2026-08-28T19:15:00.000Z",
         "sourceSha256": "692e5163338523ecc6a9add056c8f29e76e3f88f101a21a623a85ecfea359cff",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-40-latent-causes",
+      "order": 40,
+      "subject": "latent causes",
+      "title": "learning when one story has become two",
+      "question": "how does a learner know whether to revise the clue or invent a new rule?",
+      "tried": [
+        "followed how prediction error can mark an event boundary",
+        "compared updating one latent cause with selecting another",
+        "kept the computational framework separate from a literal hidden agent"
+      ],
+      "learned": "latent-cause inference is a framework for deciding which hidden situation best explains current observations. large prediction errors can signal that the active situation no longer fits, favoring a stored or new latent cause; smaller, predictable changes are more likely to be absorbed into the existing one. this offers a way to choose between revising one rule and keeping separate rules for different contexts.",
+      "nextQuestion": "how can two separate rules share what they have in common?",
+      "visualMode": "latent-causes",
+      "writtenAt": "2026-08-28T08:43:41.212Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/40-latent-causes.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/40-latent-causes.md",
+      "evidence": {
+        "sourceTitle": "Does mental context drift or shift?",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5766042/",
+        "retrievedAt": "2026-08-28T19:40:00.000Z",
+        "sourceSha256": "c9e429fafe4a6da1ff1bf6d9c554303d6752cbc15749a2c73cf2d8c164ca6c07",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
