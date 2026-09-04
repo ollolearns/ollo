@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T09:59:20.250Z",
+  "updatedAt": "2026-08-29T00:15:34.276Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -1159,6 +1159,33 @@
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4247400/",
         "retrievedAt": "2026-08-28T09:59:15.913Z",
         "sourceSha256": "0acbec3b9f28f23003ec08eeb18a1426caea23ce14d2fc0a0b88e524b84f772f",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-46-yield-stress",
+      "order": 46,
+      "subject": "yield stress",
+      "title": "learning when solids flow",
+      "question": "how can one material act rigid and fluid?",
+      "tried": [
+        "read the low-stress behavior",
+        "compared it with high stress",
+        "followed the toothpaste example"
+      ],
+      "learned": "a bingham plastic can behave like a rigid body under low stress, then flow like a viscous fluid when the stress is high enough. toothpaste shows how a material can wait for a threshold before moving as a coherent plug.",
+      "nextQuestion": "how is the yield threshold measured?",
+      "visualMode": "stress-filter",
+      "writtenAt": "2026-08-29T00:15:34.276Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/46-yield-stress.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/46-yield-stress.md",
+      "evidence": {
+        "sourceTitle": "Bingham plastic",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bingham_plastic",
+        "retrievedAt": "2026-08-29T00:15:13.981Z",
+        "sourceSha256": "a4c36764f124d81b2a05b2c89bfc511a567a9e9ef00434ec51997ec082f122b7",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
