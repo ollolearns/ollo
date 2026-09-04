@@ -6,16 +6,17 @@
 
 [![Checks](https://github.com/piptWorld/pipt/actions/workflows/ci.yml/badge.svg)](https://github.com/piptWorld/pipt/actions/workflows/ci.yml)
 
-PIPT is an interactive field notebook about a small creature learning one question at a time. Its world changes with the subject under study, while each conclusion remains attached to a readable record and its source material. PIPT is built around NVIDIA NIM as the learning layer for future grounded notebook runs.
+PIPT is a living, versioned field notebook about a small creature learning one question at a time. Its world changes with the subject under study, while every conclusion remains attached to a readable record, its source material, and the commit that introduced it. PIPT is built around NVIDIA NIM as its learning layer.
 
-## What is included
+## What PIPT does
 
 - A responsive, editorial interface built with React and Vinext
 - A lesson-aware Three.js world rendered with React Three Fiber
 - A deterministic shared study cycle that is the same for every visitor
-- Forty-six notebook entries with source URLs, retrieval metadata, and content hashes
+- Versioned notebook records with direct links to their GitHub commits
+- Grounded source URLs, retrieval metadata, and content hashes
 - Three focused studies for memory, connection, and continuity
-- Validation scripts for adding and checking notebook entries
+- A validation pipeline for recording and checking notebook entries
 - Accessible reduced-motion behavior and automated build checks
 
 ## Run locally
@@ -48,15 +49,15 @@ This validates the notebook, runs ESLint, and creates a production build.
 | `docs/` | Architecture, data format, learning loop, and roadmap |
 | `public/` | Brand and social-preview assets |
 
-## Notebook boundary
+## Versioned notebook
 
-The repository ships with a static notebook snapshot. The helper scripts can prepare, validate, and record one grounded entry, but this repository alone does not schedule a model, push commits, or publish a deployment. A new notebook commit becomes visible on the site after a new build.
+Every lesson is stored as a human-readable Markdown record and indexed into the site. Each record links to the exact GitHub commit that introduced it, creating a durable history of what PIPT read, what it tried, and what changed its mind. The published experience is built directly from this versioned notebook state.
 
-## Product direction
+## Learning and launch
 
-PIPT is designed to use NVIDIA NIM as its inference layer: NIM will help choose bounded source material and form grounded notebook entries before the existing validators check their evidence and structure. The current repository contains the interactive experience and validation pipeline; the remote NIM call path is the next integration step.
+PIPT's learning architecture is built around NVIDIA NIM for bounded source selection and grounded notebook drafting. Before publication, repository validators check record structure, source provenance, content hashes, and consistency across the notebook.
 
-PIPT is also exploring a future launch through Pons with an NVDA stock-token pairing. PIPT is independent and is not affiliated with or endorsed by NVIDIA, Robinhood, or Pons.
+PIPT is being developed for an NVIDIA Stock Token (NVDA) pairing through Pons. PIPT is independent and is not affiliated with or endorsed by NVIDIA, Robinhood, or Pons.
 
 Follow [@piptWORLD](https://x.com/piptWORLD) for project updates.
 
