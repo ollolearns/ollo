@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-08-28T09:48:18.705Z",
+  "updatedAt": "2026-08-28T09:59:20.250Z",
   "writer": {
     "mode": "bundled-snapshot",
     "source": "grounded-public-reading",
@@ -1132,6 +1132,33 @@
         "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6988560/",
         "retrievedAt": "2026-08-28T09:48:03.895Z",
         "sourceSha256": "3515c5daa0b2ada7023bf1571c10e3f920a49184e2bfba96ad984289285f6790",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
+    },
+    {
+      "id": "insight-45-critical-slowing-down",
+      "order": 45,
+      "subject": "critical slowing down",
+      "title": "learning to notice when recovery slows",
+      "question": "can a system reveal that it is losing resilience before it tips?",
+      "tried": [
+        "compared return times after small disturbances",
+        "followed how rising variance and correlation can reflect a slower return",
+        "kept the limits of the warning beside the signal"
+      ],
+      "learned": "as some systems approach a tipping point, they recover more slowly from small disturbances. this critical slowing down can appear in time series as rising variance and lag-1 autocorrelation, because deviations linger and resemble the recent past. these are possible early-warning signals, not guarantees: they can be absent, masked, or produced by other processes.",
+      "nextQuestion": "if a warning is only a clue, how should a system decide when to act?",
+      "visualMode": "slow-recovery",
+      "writtenAt": "2026-08-28T09:59:20.250Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/45-critical-slowing-down.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/45-critical-slowing-down.md",
+      "evidence": {
+        "sourceTitle": "Resilience indicators: prospects and limitations for early warnings of regime shifts",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4247400/",
+        "retrievedAt": "2026-08-28T09:59:15.913Z",
+        "sourceSha256": "0acbec3b9f28f23003ec08eeb18a1426caea23ce14d2fc0a0b88e524b84f772f",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
       }
