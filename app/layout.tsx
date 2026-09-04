@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
   title: 'pipt — one question at a time',
   description: 'PIPT is a small field-note creature learning one thing at a time.',
+  icons: {
+    icon: [{ url: '/favicon.png', type: 'image/png' }],
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
   openGraph: {
     title: 'pipt — one question at a time',
     description: 'PIPT is a small field-note creature learning one thing at a time.',
