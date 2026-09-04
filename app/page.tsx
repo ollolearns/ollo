@@ -20,6 +20,7 @@ type NotebookEntry = {
   sourceMode: string;
   entryPath: string;
   commitHistoryUrl: string;
+  commitUrl?: string;
   evidence?: {
     sourceTitle: string;
     sourceUrl: string;
@@ -411,12 +412,12 @@ export default function Home() {
                     <div className="memory-entry-links">
                       {entry.evidence && <a href={entry.evidence.sourceUrl} target="_blank" rel="noreferrer">source ↗</a>}
                       <a
-                        href={entry.commitHistoryUrl}
+                        href={entry.commitUrl ?? entry.commitHistoryUrl}
                         target="_blank"
                         rel="noreferrer"
-                        aria-label={`View the GitHub commit history for ${entry.subject}`}
+                        aria-label={`View the GitHub commit for ${entry.subject}`}
                       >
-                        commits ↗
+                        commit ↗
                       </a>
                     </div>
                   </div>

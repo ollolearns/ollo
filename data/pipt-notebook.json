@@ -23,7 +23,8 @@
       "writtenAt": "2026-08-28T03:10:09.953Z",
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/01-paint.md",
-      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/01-paint.md"
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/01-paint.md",
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/13d9d5e7392836e53a7324b5b488ed0002c0f32d"
     },
     {
       "id": "lesson-02-music",
@@ -40,7 +41,8 @@
       "writtenAt": "2026-08-28T03:10:10.011Z",
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/02-music.md",
-      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/02-music.md"
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/02-music.md",
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/abada021f72482c8f9b205b0e3d3ea6119bf2894"
     },
     {
       "id": "lesson-03-games",
@@ -57,7 +59,8 @@
       "writtenAt": "2026-08-28T03:10:10.065Z",
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/03-games.md",
-      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/03-games.md"
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/03-games.md",
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/7aeb4eddc6d4aa75557e943c6251b7a5429f2ce3"
     },
     {
       "id": "lesson-04-people",
@@ -74,7 +77,8 @@
       "writtenAt": "2026-08-28T03:10:10.116Z",
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/04-people.md",
-      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/04-people.md"
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/04-people.md",
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/2ef2730f3289e7a1931aa6b86f44d79286debee5"
     },
     {
       "id": "lesson-05-plants",
@@ -91,7 +95,8 @@
       "writtenAt": "2026-08-28T03:10:10.168Z",
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/05-plants.md",
-      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/05-plants.md"
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/05-plants.md",
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/71cab505f8709014060dbd8d727aa706ca4cce47"
     },
     {
       "id": "lesson-06-promises",
@@ -108,7 +113,8 @@
       "writtenAt": "2026-08-28T03:10:10.219Z",
       "sourceMode": "deterministic-curriculum",
       "entryPath": "memory/entries/06-promises.md",
-      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/06-promises.md"
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/06-promises.md",
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/9670ae59920eba931101c056d73211f2472e4f54"
     },
     {
       "id": "insight-07-watching-games",
@@ -135,7 +141,8 @@
         "sourceSha256": "de96108d520ab66953706c425462cfe32f344e7cc9c5ee90f1c8e1f8d700c8db",
         "model": "github-copilot/automatic",
         "promptVersion": "pipt-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/329557654c2283b0a466e2b082a1030fd83bda14"
     },
     {
       "id": "insight-08-counterweights",
@@ -162,7 +169,8 @@
         "sourceSha256": "2f77d1655993f75a013c455de882b48ee6ec0141036848ba91588b1842d630d4",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/5b8dbcefb62075f0e267e9b58cbfc2d4c1846395"
     },
     {
       "id": "insight-09-leftover-fibers",
@@ -189,7 +197,8 @@
         "sourceSha256": "6257fb3b9fcf3c1f798db70fbee9e9e441afd192e58732a4de320c89c33e91e0",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/242169b6fef31a6424d404eb412e1f2b55c8d94e"
     },
     {
       "id": "insight-10-fading-colors",
@@ -216,7 +225,8 @@
         "sourceSha256": "6fc19ff28b29c71978768262ebf820e1f0ba10ff3b2938dc75c45249db652cd7",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/d99cfd4b1cbb0fe831cf2f09ce6bccc2f7f4f477"
     },
     {
       "id": "insight-11-needle-threaders",
@@ -243,7 +253,8 @@
         "sourceSha256": "bc30f07db5d35158fa4abd4dc768ef3de5afe5a39137ee98b4e2803684f044f8",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/a7e26f0ba53137b42b68915328a3cedec9c9ffa0"
     },
     {
       "id": "insight-12-least-time-paths",
@@ -270,7 +281,8 @@
         "sourceSha256": "f09bf5de821ffb41fd41f880c06cce5df31da42ed8e56193bd0ad8b7a6af4d6d",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/2838a1f3d5650377db8671c58fcd3304dfa8c166"
     },
     {
       "id": "insight-13-found-sounds",
@@ -297,7 +309,8 @@
         "sourceSha256": "d7bb89ca8d3830f927501ae52a95c17fe402242c6aec9c920479ebeeb8a5701c",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/01cfda2c8f2911170fa20dfe6c0dc845bfc515c8"
     },
     {
       "id": "insight-14-memory-and-records",
@@ -324,7 +337,8 @@
         "sourceSha256": "1e9436acdc1c9cdf80d21dea86cb1e9706b864a62c2b93aa7962eb8bb7b41785",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/b7a2b5d05ec02ca3b16c4f6b238b880f68bf4008"
     },
     {
       "id": "insight-15-parallax",
@@ -351,7 +365,8 @@
         "sourceSha256": "b42dc8855ef431f4e8523b2e175fb5cc43b86127375c6b7b8ddc97de6b01fca9",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/837a302746f24be8eca6ef2cb4507aa142152f74"
     },
     {
       "id": "insight-16-river-meanders",
@@ -378,7 +393,8 @@
         "sourceSha256": "7551e5396fffcd689a194c931860d9f62774a2c26311ae4407d125d2daf01bc5",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/f15f631f9ee191c1fe467625f97328cc94f195ed"
     },
     {
       "id": "insight-17-cooling-rock",
@@ -405,7 +421,8 @@
         "sourceSha256": "707d1634509185cd7ac45ebb6fbe899d5311a2d760d5cf7ef05c99f1569e32f3",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/535dc2e6a2704483183a72260ccd2c2902c78219"
     },
     {
       "id": "insight-18-capillary-action",
@@ -432,7 +449,8 @@
         "sourceSha256": "a1f009c3c50fe4cdf3f5020576c007249b9b1b0d1fb2abfefcc2e4623b5727ea",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/3d645b5757a0f9bb847ad5d0cfd9c8c6962786ff"
     },
     {
       "id": "insight-19-transpiration",
@@ -459,7 +477,8 @@
         "sourceSha256": "e2513566ada527124aa0bef7078cdfce889c990edeb62a84cfc6f099493329ce",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/ee1e6d46a2f3e2950e8baea16dc1af6eb8a54e64"
     },
     {
       "id": "insight-20-entropy",
@@ -486,7 +505,8 @@
         "sourceSha256": "73d577461f1798dd49cfb5f9832edc380c7d1e03072b78203f8ed7dec3dcf863",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/13109f0bd6b2b98bc2ee8c10813d4a8dee418803"
     },
     {
       "id": "insight-21-local-order",
@@ -513,7 +533,8 @@
         "sourceSha256": "80bdbbd80bce29956419e14b7c1d8988aa5bf9bcf6543fd040b28fafaacfe4d5",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/8060d2106a93dedfe52f976ac874b87814db4a87"
     },
     {
       "id": "insight-22-energy-budgets",
@@ -540,7 +561,8 @@
         "sourceSha256": "1acc7902a47e6de7788b9b70b547b899e8c99522b0c0914866eee14b1711032c",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/e56d7ca9853b9042901eba4531bf8514db041a14"
     },
     {
       "id": "insight-23-selective-recycling",
@@ -567,7 +589,8 @@
         "sourceSha256": "7b7164d7050fcbf46e35517d7a9d75008358db2dc839bbdf6ed915acc169a840",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/71c0c1e28c86656e06bdfb34ddb905d58da074ce"
     },
     {
       "id": "insight-24-mitochondrial-damage",
@@ -594,7 +617,8 @@
         "sourceSha256": "9965dc1f73286c5d0830d9412c85363983e0af827573f4ba1299f42239436452",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/97120f6bee6a48fbb345158771678fbd5ca73da3"
     },
     {
       "id": "insight-25-stress-timing",
@@ -621,7 +645,8 @@
         "sourceSha256": "ce0419c39fcb59175e50c38d077f3e6ac0178031760a01bea61d8aea5691d338",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/336e06ee42b16ef657e773f9af554130fcbbee29"
     },
     {
       "id": "insight-26-fusion-repair",
@@ -648,7 +673,8 @@
         "sourceSha256": "e29182889b26dc93bb03c4860b2fea4e6c64474a7febad3bc91cac5043bb38e3",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/2be04691be3429b1f584f34edabbc6404f4d2060"
     },
     {
       "id": "insight-27-fission-triage",
@@ -675,7 +701,8 @@
         "sourceSha256": "b39c0389384f987c9349c97dd9d96b25ee2c9a969a0d5529179185e77f56ebee",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/f5a244efbbb654a110e43411d3b095a39ed388a3"
     },
     {
       "id": "insight-28-shared-power",
@@ -702,7 +729,8 @@
         "sourceSha256": "e797b2d6d65069b097a44945a53b756c3354d6574b0ceffcee1c99ac16bb76bd",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/589b81e2179c95563817c9b6edf88323b394e5e0"
     },
     {
       "id": "insight-29-self-model",
@@ -729,7 +757,8 @@
         "sourceSha256": "9826c95a62a3187434fb97e4dfca8d9472ee43cc87f269b5eddba27ee28366ad",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/73af31d77f93e0883d021e9ab44f9706ac616480"
     },
     {
       "id": "insight-30-dusk-activity",
@@ -756,7 +785,8 @@
         "sourceSha256": "4a33d0db63c4bb3927f4c8d1090bee4bb61290839eea993720055b3fdeba8d6b",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/ce0eb95af28f6bb61d85654d9d5ad8e6f81696f9"
     },
     {
       "id": "insight-31-other-minds",
@@ -783,7 +813,8 @@
         "sourceSha256": "81c5ab0f0d335ff46d80b2621467207311571aaea30cf87d878a42369f319a73",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/5c71b157597804339191aeb552d9d7f4c7dd06da"
     },
     {
       "id": "insight-32-joint-attention",
@@ -810,7 +841,8 @@
         "sourceSha256": "48a1d06a2e895b9f6ef2ba42e066fe6dfebe15eb210a064b87c7efcb7061b2fe",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/4cd6d0d84800bfe9c09250002d66f71632a19a93"
     },
     {
       "id": "insight-33-word-reference",
@@ -837,7 +869,8 @@
         "sourceSha256": "7262a702652f01e0171a767db885dbad445d0781c866bdcaf98517a140f4a660",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/7a772bb6f1b82c9632c276d9ce106a9bc64dd528"
     },
     {
       "id": "insight-34-cross-situational-learning",
@@ -864,7 +897,8 @@
         "sourceSha256": "999ccb91d50b84cf4bc69c46602bc334865691a8fad625f7f115ac96a1c97c6d",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/7b7df3d8f5cb043283ba13ebf0a25b81f70159b8"
     },
     {
       "id": "insight-35-shape-bias",
@@ -891,7 +925,8 @@
         "sourceSha256": "525cbaf4bf51cd14bf02dcd3c5a06ed8070d69553bb68c10f8eeca5ce6fe184e",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/6caa31a9909478d8e23c284003b32c33e30b9510"
     },
     {
       "id": "insight-36-material-bias",
@@ -918,7 +953,8 @@
         "sourceSha256": "b9d0deb597c07e7a8530a0e1078f9fe24bdb5fac81b7bb63d4f2060280cfe748",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/2042b20c3e1fc3a8eed9e343213fa2e778c348e4"
     },
     {
       "id": "insight-37-syntax-cues",
@@ -945,7 +981,8 @@
         "sourceSha256": "d5d58148aba186867d165cd64f31128d990d162bc1c8de699bc035f07287d441",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/005a2027e80b302fa301f2d172292a46c07a512e"
     },
     {
       "id": "insight-38-cue-weighting",
@@ -972,7 +1009,8 @@
         "sourceSha256": "72aa4013737ba69052f82ae292099dfc2248b7e7985ce2f82b6a58cd7e443744",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/8ab1d6ecb866ab1231f2effff1f822a57ba4e19a"
     },
     {
       "id": "insight-39-prediction-error",
@@ -999,7 +1037,8 @@
         "sourceSha256": "692e5163338523ecc6a9add056c8f29e76e3f88f101a21a623a85ecfea359cff",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/c55ac9940664649754c11df4226add6120e0a4ec"
     },
     {
       "id": "insight-40-latent-causes",
@@ -1026,7 +1065,8 @@
         "sourceSha256": "c9e429fafe4a6da1ff1bf6d9c554303d6752cbc15749a2c73cf2d8c164ca6c07",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/cdbff2933f2ecb523cf9a5b274225f49bfd9fd83"
     },
     {
       "id": "insight-41-compositionality",
@@ -1053,7 +1093,8 @@
         "sourceSha256": "734fa8cbde7287b4d29909d80ae5759d93b7d1779cd5370d2d14edcb5a5b6d03",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/2456c4f9e01640eeff8c4bd8fadab84dc966657e"
     },
     {
       "id": "insight-42-emergence",
@@ -1080,7 +1121,8 @@
         "sourceSha256": "f0d72c7e4ef9332efb09d06a255377bebc14aef0257e261b5649f2b97524f2ec",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/2a006a86a85dd3f8732d0fad5b46e809260d84eb"
     },
     {
       "id": "insight-43-continuity",
@@ -1107,7 +1149,8 @@
         "sourceSha256": "31fa19be19cd72e1a17bdeac0ddec876dcfbb25b335df667022fa994f7fda438",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/6592d0204253f71d7a0aa9ba30275f9b1ac1cf22"
     },
     {
       "id": "insight-44-tipping-points",
@@ -1134,7 +1177,8 @@
         "sourceSha256": "3515c5daa0b2ada7023bf1571c10e3f920a49184e2bfba96ad984289285f6790",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/ae375eb79f8f7fb61fb2c86146e84143752cc5a3"
     },
     {
       "id": "insight-45-critical-slowing-down",
@@ -1161,7 +1205,8 @@
         "sourceSha256": "0acbec3b9f28f23003ec08eeb18a1426caea23ce14d2fc0a0b88e524b84f772f",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/ba010ffdf0958dceda0f3a5655597823c3dac55a"
     },
     {
       "id": "insight-46-yield-stress",
@@ -1188,7 +1233,8 @@
         "sourceSha256": "a4c36764f124d81b2a05b2c89bfc511a567a9e9ef00434ec51997ec082f122b7",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/6c8ff05a7431ed82ea01e7d818764b43a4aaab51"
     }
   ]
 }
