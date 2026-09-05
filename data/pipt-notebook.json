@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T11:35:48.649Z",
+  "updatedAt": "2026-09-05T11:41:20.721Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1601,6 +1601,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/3228083f33138c7a9e11fef9ea806911b50fe61d"
+    },
+    {
+      "id": "insight-60-bletting",
+      "order": 60,
+      "subject": "bletting",
+      "title": "learning why ripe is not always finished",
+      "question": "why do some fruits become better after they pass ordinary ripeness?",
+      "tried": [
+        "read what happens to fruit during bletting",
+        "looked past ripening for a second stage of change",
+        "compared fruits that soften or sweeten after ripening"
+      ],
+      "learned": "bletting is a process of softening that certain fleshy fruits undergo beyond ripening. some fruits become sweeter after bletting, while medlars and several others are usually eaten raw only after this later change.",
+      "nextQuestion": "what changes inside a fruit while it bletts?",
+      "visualMode": "continuity",
+      "writtenAt": "2026-09-05T11:41:20.721Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/60-bletting.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/60-bletting.md",
+      "evidence": {
+        "sourceTitle": "Bletting",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bletting",
+        "retrievedAt": "2026-09-05T11:40:59.792Z",
+        "sourceSha256": "db25f769baab127edcd55d7c2ccd0af135f668006f3830627ebbc66e224c7380",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
