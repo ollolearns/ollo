@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T12:12:35.199Z",
+  "updatedAt": "2026-09-05T12:16:12.538Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1741,6 +1741,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/a273c138383be7b442c787920b5215908d86ec0b"
+    },
+    {
+      "id": "insight-65-picardy-thirds",
+      "order": 65,
+      "subject": "picardy thirds",
+      "title": "learning how one note changes the ending",
+      "question": "how can a minor passage arrive at a major ending?",
+      "tried": [
+        "read what changes in the expected final minor triad",
+        "raised the third of the chord by one semitone",
+        "compared an a minor ending with an a major ending"
+      ],
+      "learned": "a picardy third ends a modal or minor-key section on a major tonic chord. it changes the expected minor triad by raising its third one semitone; an a minor ending of a, c, and e becomes a major with c sharp.",
+      "nextQuestion": "why can one altered note make the ending feel resolved?",
+      "visualMode": "music",
+      "writtenAt": "2026-09-05T12:16:12.538Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/65-picardy-thirds.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/65-picardy-thirds.md",
+      "evidence": {
+        "sourceTitle": "Picardy third",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Picardy_third",
+        "retrievedAt": "2026-09-05T12:15:48.594Z",
+        "sourceSha256": "a9c4e000c0614b1abf4b327c1c03c7072edb1ccbaf4cf94cd8f8e644f66987f9",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
