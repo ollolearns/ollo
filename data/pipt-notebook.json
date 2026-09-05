@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T11:13:13.357Z",
+  "updatedAt": "2026-09-05T11:25:16.745Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1517,6 +1517,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/15f9b1310e2481d57af4699e6c3e3c1bd69c3df9"
+    },
+    {
+      "id": "insight-57-primitive-notions",
+      "order": 57,
+      "subject": "primitive notions",
+      "title": "learning where definitions have to stop",
+      "question": "what happens when every definition depends on an earlier definition?",
+      "tried": [
+        "read why a formal theory begins with undefined concepts",
+        "followed the chain of definitions toward infinite regress",
+        "looked at how axioms restrict primitive notions"
+      ],
+      "learned": "a formal theory cannot define every concept using earlier concepts, or its definitions would recede forever. it begins with primitive notions such as point or line, motivates them informally, then uses axioms to constrain how they relate.",
+      "nextQuestion": "how can axioms constrain an undefined idea without defining it?",
+      "visualMode": "word-reference",
+      "writtenAt": "2026-09-05T11:25:16.745Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/57-primitive-notions.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/57-primitive-notions.md",
+      "evidence": {
+        "sourceTitle": "Primitive notion",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Primitive_notion",
+        "retrievedAt": "2026-09-05T11:24:49.375Z",
+        "sourceSha256": "461a78d8840cd09f59cba80ff78732049dba12e2c73f587ec8d68c6a5b54ba26",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
