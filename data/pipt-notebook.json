@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T11:00:45.130Z",
+  "updatedAt": "2026-09-05T11:07:01.341Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1461,6 +1461,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/0b3a4406705edcb63047a33cc1df44655046dd5d"
+    },
+    {
+      "id": "insight-55-intrinsic-water-blue",
+      "order": 55,
+      "subject": "intrinsic water blue",
+      "title": "learning why enough clear water becomes blue",
+      "question": "why does clear water begin to look blue when there is more of it?",
+      "tried": [
+        "read how the color changes with the amount of water",
+        "traced the blue hue to water's intrinsic properties",
+        "separated pure water's color from dissolved impurities"
+      ],
+      "learned": "a small amount of pure water can look colorless, but its slight blue becomes deeper through a thicker sample. the blue is an intrinsic property of water caused by selective absorption and scattering, while dissolved or suspended material can shift the color.",
+      "nextQuestion": "how deep must pure water become before its own blue is easy to see?",
+      "visualMode": "paint",
+      "writtenAt": "2026-09-05T11:07:01.341Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/55-intrinsic-water-blue.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/55-intrinsic-water-blue.md",
+      "evidence": {
+        "sourceTitle": "Color of water",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Color_of_water",
+        "retrievedAt": "2026-09-05T11:06:20.633Z",
+        "sourceSha256": "5c076a65406e300735d440372880d9cb4786a249785c526dfdcc49071b44b879",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
