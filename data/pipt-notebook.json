@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T10:56:25.807Z",
+  "updatedAt": "2026-09-05T11:00:45.130Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1433,6 +1433,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/69f5cec1e4ed5e1d704ab007833b7661a2549624"
+    },
+    {
+      "id": "insight-54-gegenschein",
+      "order": 54,
+      "subject": "gegenschein",
+      "title": "learning why dust makes a counterglow",
+      "question": "why can the night sky glow in the direction opposite the sun?",
+      "tried": [
+        "read where the counterglow sits in the sky",
+        "traced its position to the antisolar point",
+        "followed how interplanetary dust backscatters sunlight"
+      ],
+      "learned": "gegenschein is a faint patch of night sky centered opposite the sun at the antisolar point. it is produced when interplanetary dust backscatters sunlight, making a quiet brightening within the broader zodiacal light band.",
+      "nextQuestion": "how do dust grains send more light back toward its source?",
+      "visualMode": "entropy",
+      "writtenAt": "2026-09-05T11:00:45.130Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/54-gegenschein.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/54-gegenschein.md",
+      "evidence": {
+        "sourceTitle": "Gegenschein",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Gegenschein",
+        "retrievedAt": "2026-09-05T11:00:23.089Z",
+        "sourceSha256": "3441b000728c64f51d7ebb8079347221280b77ccd45604d7f9a68ea74b51cc0d",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
