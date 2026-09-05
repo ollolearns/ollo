@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T10:42:10.003Z",
+  "updatedAt": "2026-09-05T10:46:51.177Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1349,6 +1349,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/5a8b583ffeebe5c5feac06d096633bf23e85f15b"
+    },
+    {
+      "id": "insight-51-typographic-overshoot",
+      "order": 51,
+      "subject": "typographic overshoot",
+      "title": "learning why equal-looking letters are not equal",
+      "question": "why does a round letter have to be taller to look the same height?",
+      "tried": [
+        "read how round letters meet the cap height",
+        "compared the outlines of o and x",
+        "noted the typical overshoot suggested for o"
+      ],
+      "learned": "round and pointed letters are often drawn slightly taller or lower than flat letters so they appear equal in size. this typographic overshoot compensates for human visual perception; for a capital o, about one to three percent of the cap height is typical.",
+      "nextQuestion": "what other shapes must be made unequal before they appear balanced?",
+      "visualMode": "shape-bias",
+      "writtenAt": "2026-09-05T10:46:51.177Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/51-typographic-overshoot.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/51-typographic-overshoot.md",
+      "evidence": {
+        "sourceTitle": "Overshoot (typography)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Overshoot_(typography)",
+        "retrievedAt": "2026-09-05T10:46:29.448Z",
+        "sourceSha256": "f41c51e47378aaf05dea3e50affc89f68872e312f97856af21769fde45c7ff12",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
