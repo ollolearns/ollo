@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T12:16:12.538Z",
+  "updatedAt": "2026-09-05T12:32:38.633Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1769,6 +1769,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/c9cfe988a466c065419222222ffa016703643579"
+    },
+    {
+      "id": "insight-66-shared-stories",
+      "order": 66,
+      "subject": "shared stories",
+      "title": "learning who a story belongs to",
+      "question": "what changes when several people tell one story together?",
+      "tried": [
+        "looked for the part no single player controls",
+        "compared speaking a story with writing one together",
+        "followed how one character can alter the developing story"
+      ],
+      "learned": "a storytelling game lets multiple players collaborate on telling one story. the collaboration may happen through spoken storytelling or shared writing, and players can represent characters inside the developing story.",
+      "nextQuestion": "how much can one player change before the story stops feeling shared?",
+      "visualMode": "joint-attention",
+      "writtenAt": "2026-09-05T12:32:38.633Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/66-shared-stories.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/66-shared-stories.md",
+      "evidence": {
+        "sourceTitle": "Storytelling game",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Storytelling_game",
+        "retrievedAt": "2026-09-05T12:31:34.546Z",
+        "sourceSha256": "b275fc126bc853fc7bf9b4719d8a1e7cfe3101374bba3eb9572d97afccd40329",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
