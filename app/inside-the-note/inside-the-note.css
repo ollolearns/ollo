@@ -1,0 +1,223 @@
+.inside-note-page {
+  --note-green: #315b4a;
+  --note-pale: #e5ece3;
+  --note-clay: #c96f51;
+  min-height: 100vh;
+  padding: 0 30px;
+  background: #f1f2eb;
+  color: var(--ink);
+}
+
+.inside-note-header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font: 10px var(--font-geist-mono), monospace;
+}
+
+.inside-note-brand {
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 560;
+  line-height: 1;
+  letter-spacing: -.06em;
+}
+
+.inside-note-intro,
+.bore-workbench,
+.inside-note-record,
+.inside-note-footer {
+  width: min(1080px, 100%);
+  margin-inline: auto;
+}
+
+.inside-note-intro { padding: clamp(50px, 9vh, 92px) 0 38px; }
+.inside-note-intro > span,
+.inside-note-record span,
+.inside-note-footer,
+.bore-controls label,
+.bore-controls output,
+.bore-range span {
+  font: 10px var(--font-geist-mono), monospace;
+}
+
+.inside-note-intro > span,
+.inside-note-record span { color: var(--note-green); }
+
+.inside-note-intro h1 {
+  max-width: 850px;
+  margin: 11px 0 15px;
+  font: 400 clamp(43px, 6.6vw, 76px)/.98 Georgia, 'Times New Roman', serif;
+  letter-spacing: -.055em;
+}
+
+.inside-note-intro p {
+  max-width: 610px;
+  margin: 0;
+  color: var(--muted);
+  font: 15px/1.5 Georgia, 'Times New Roman', serif;
+}
+
+.bore-workbench { border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); }
+
+.bore-stage {
+  position: relative;
+  min-height: 410px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(49,91,74,.045) 1px, transparent 1px);
+  background-size: 100% 54px;
+}
+
+.bore-drawing { width: 100%; height: auto; overflow: visible; }
+.bore-body { fill: url('#bore-air'); opacity: .72; }
+.bore-edge, .bore-mouth, .bore-bell { fill: none; stroke: var(--ink); stroke-width: 1.4; vector-effect: non-scaling-stroke; }
+.bore-mouth { stroke-width: 4; }
+.bore-bell { stroke: var(--note-clay); stroke-width: 3; }
+
+.air-path {
+  fill: none;
+  stroke: #fbfcf8;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 12 18;
+  opacity: .12;
+  vector-effect: non-scaling-stroke;
+}
+
+.air-path.is-sounding { opacity: .9; animation: bore-flow .7s linear infinite; }
+.air-path-delay.is-sounding { animation-delay: -.23s; opacity: .48; }
+
+.bore-pipt {
+  position: absolute;
+  z-index: 2;
+  left: 2.5%;
+  bottom: 42px;
+  width: 86px;
+  height: 78px;
+  border-radius: 48% 52% 46% 54%;
+  background: var(--note-clay);
+  box-shadow: inset -12px -9px 0 rgba(75,39,29,.07);
+}
+
+.bore-pipt::before {
+  content: '';
+  position: absolute;
+  left: 48px;
+  top: -33px;
+  width: 25px;
+  height: 45px;
+  border-radius: 90% 0 90% 0;
+  background: var(--note-green);
+  transform: rotate(-12deg);
+  transform-origin: bottom left;
+}
+
+.bore-pipt-eye {
+  position: absolute;
+  top: 33px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #191d1a;
+}
+.bore-pipt-eye-left { left: 26px; }
+.bore-pipt-eye-right { right: 26px; }
+
+.bore-pipt-arm,
+.bore-pipt-leg {
+  position: absolute;
+  width: 3px;
+  display: block;
+  background: #242824;
+  border-radius: 3px;
+}
+.bore-pipt-arm { right: -10px; top: 43px; height: 30px; transform: rotate(-52deg); transform-origin: top; }
+.bore-pipt-leg { top: 72px; height: 23px; }
+.bore-pipt-leg-left { left: 29px; transform: rotate(3deg); }
+.bore-pipt-leg-right { right: 28px; transform: rotate(-3deg); }
+
+.bore-controls {
+  min-height: 92px;
+  display: grid;
+  grid-template-columns: 135px minmax(240px, 1fr) 120px 150px;
+  gap: 24px;
+  align-items: center;
+  border-top: 1px solid var(--line);
+}
+
+.bore-controls label { color: var(--ink); }
+.bore-controls output { color: var(--muted); }
+.bore-range { display: grid; grid-template-columns: auto minmax(120px, 1fr) auto; gap: 12px; align-items: center; }
+.bore-range span { color: var(--muted); }
+
+.bore-range input {
+  width: 100%;
+  height: 18px;
+  margin: 0;
+  appearance: none;
+  background: transparent;
+}
+.bore-range input::-webkit-slider-runnable-track { height: 1px; background: var(--ink); }
+.bore-range input::-webkit-slider-thumb { width: 15px; height: 15px; margin-top: -7px; appearance: none; border: 1px solid var(--ink); border-radius: 50%; background: var(--note-clay); }
+.bore-range input::-moz-range-track { height: 1px; background: var(--ink); }
+.bore-range input::-moz-range-thumb { width: 14px; height: 14px; border: 1px solid var(--ink); border-radius: 50%; background: var(--note-clay); }
+
+.bore-controls button {
+  justify-self: stretch;
+  min-height: 38px;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 999px;
+  color: #f8faf5;
+  background: var(--note-green);
+  font: 11px var(--font-geist-sans), Arial, sans-serif;
+}
+.bore-controls button:hover:not(:disabled) { background: #234638; }
+.bore-controls button:disabled { cursor: default; opacity: .58; }
+
+.inside-note-record {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(35px, 8vw, 100px);
+  padding: 38px 0 52px;
+  border-bottom: 1px solid var(--line);
+}
+.inside-note-record p { max-width: 470px; margin: 8px 0 0; font: 18px/1.42 Georgia, 'Times New Roman', serif; }
+.inside-note-record > div:last-child p { color: var(--muted); }
+
+.inside-note-footer {
+  padding: 17px 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 22px;
+}
+.inside-note-footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); }
+.inside-note-footer a:hover { color: var(--note-green); border-color: var(--note-green); }
+
+@keyframes bore-flow { to { stroke-dashoffset: -30; } }
+
+@media (max-width: 760px) {
+  .inside-note-page { padding: 0 18px; }
+  .inside-note-header { height: 60px; }
+  .inside-note-intro { padding-top: 40px; }
+  .inside-note-intro h1 { font-size: clamp(42px, 13vw, 60px); }
+  .bore-stage { min-height: 300px; }
+  .bore-pipt { left: 2%; bottom: 30px; transform: scale(.72); transform-origin: bottom left; }
+  .bore-drawing { width: 130%; max-width: none; transform: translateX(-4%); }
+  .bore-controls { grid-template-columns: 1fr 1fr; gap: 14px 18px; padding: 18px 0; }
+  .bore-range { grid-column: 1 / -1; grid-row: 2; }
+  .bore-controls button { grid-column: 2; grid-row: 1; }
+  .bore-controls output { display: none; }
+  .inside-note-record { grid-template-columns: 1fr; gap: 28px; }
+  .inside-note-footer { justify-content: flex-start; flex-wrap: wrap; gap: 10px 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .air-path.is-sounding { animation: none; }
+}

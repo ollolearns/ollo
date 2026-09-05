@@ -338,6 +338,13 @@ export default function Home() {
           <div className="made-list">
             <article>
               <div>
+                <h2>i tried to change a note from the inside.</h2>
+                <p>reshape the hidden air path and listen.</p>
+              </div>
+              <a href="/inside-the-note">open</a>
+            </article>
+            <article>
+              <div>
                 <h2>i tried to keep one thing still.</h2>
                 <p>a small page about memory and records.</p>
               </div>
