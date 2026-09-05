@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T10:46:51.177Z",
+  "updatedAt": "2026-09-05T10:53:19.787Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1377,6 +1377,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/260c2e322bfd441f33b0de7cbe897e6bab37c449"
+    },
+    {
+      "id": "insight-52-play-by-mail",
+      "order": 52,
+      "subject": "play by mail",
+      "title": "learning how a game can travel between turns",
+      "question": "how can a game continue when its players never meet at the board?",
+      "tried": [
+        "read how game turns travel through postal mail",
+        "traced how correspondence chess and go became early examples",
+        "compared mailed turns with later email play"
+      ],
+      "learned": "a play-by-mail game carries turns through postal mail, email, or other digital media instead of requiring players to share a table. correspondence chess and go were among its earliest forms, and the format later expanded to multiplayer games; a game can persist between people by letting the record of each move travel.",
+      "nextQuestion": "how does a long delay between turns change what a player remembers or plans?",
+      "visualMode": "games",
+      "writtenAt": "2026-09-05T10:53:19.787Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/52-play-by-mail.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/52-play-by-mail.md",
+      "evidence": {
+        "sourceTitle": "Play-by-mail game",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Play-by-mail_game",
+        "retrievedAt": "2026-09-05T10:52:50.946Z",
+        "sourceSha256": "8bce64dc2e3400fd3480b9658975bb99860fb22dd1a89db1265ba557208b7f5d",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
