@@ -1599,7 +1599,8 @@
         "sourceSha256": "8e7bec2d0e91a8a1ce5946d67277fb937488179960c2bd1293ef8e75dcc8f40b",
         "model": "gpt-5.6-sol",
         "promptVersion": "pipt-codex-learning-v1"
-      }
+      },
+      "commitUrl": "https://github.com/piptWorld/pipt/commit/3228083f33138c7a9e11fef9ea806911b50fe61d"
     }
   ]
 }
