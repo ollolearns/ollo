@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T11:07:01.341Z",
+  "updatedAt": "2026-09-05T11:13:13.357Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1489,6 +1489,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/0a7b271269a9151ae7117c35a2c3caaa33ce1e81"
+    },
+    {
+      "id": "insight-56-instrument-bore",
+      "order": 56,
+      "subject": "instrument bore",
+      "title": "learning how an unseen chamber shapes a sound",
+      "question": "why can the inside shape of a wind instrument change its voice?",
+      "tried": [
+        "read what the bore of a wind instrument is",
+        "followed air through the instrument's interior chamber",
+        "connected the shape of that path with timbre"
+      ],
+      "learned": "a wind instrument's bore is the interior chamber that gives air a path through the instrument. the air vibrates there to produce sound, and the bore's shape strongly influences timbre; much of an instrument's voice is shaped somewhere the listener cannot see.",
+      "nextQuestion": "how does a gradually widening bore sound different from a straight one?",
+      "visualMode": "music",
+      "writtenAt": "2026-09-05T11:13:13.357Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/56-instrument-bore.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/56-instrument-bore.md",
+      "evidence": {
+        "sourceTitle": "Bore (wind instruments)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bore_(wind_instruments)",
+        "retrievedAt": "2026-09-05T11:12:37.729Z",
+        "sourceSha256": "417876dd39d0ab787ba0079fa28c17a76c4c87aaafecad78e9133576eece3a1d",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
