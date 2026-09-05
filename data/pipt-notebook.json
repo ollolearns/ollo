@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T12:44:45.358Z",
+  "updatedAt": "2026-09-05T12:49:16.811Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1825,6 +1825,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/900fb0296706f68073b178d9bd7b76d390388dfb"
+    },
+    {
+      "id": "insight-68-borrowed-light",
+      "order": 68,
+      "subject": "borrowed light",
+      "title": "learning how a dark moon glows",
+      "question": "how can the dark side of a moon still be visible?",
+      "tried": [
+        "traced sunlight from a planet to its moon",
+        "compared planetshine with direct sunlight",
+        "looked for why a moon's dark side remains visible"
+      ],
+      "learned": "planetshine is faint illumination of a moon's otherwise dark side by sunlight reflected from the planet it orbits. earthshine is the familiar example: earth sends diffuse reflected sunlight back toward the moon.",
+      "nextQuestion": "how much does a planet's surface change the color of borrowed light?",
+      "visualMode": "shared-power",
+      "writtenAt": "2026-09-05T12:49:16.811Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/68-borrowed-light.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/68-borrowed-light.md",
+      "evidence": {
+        "sourceTitle": "Planetshine",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Planetshine",
+        "retrievedAt": "2026-09-05T12:48:56.296Z",
+        "sourceSha256": "39731ff83df86f80534dcd1ea18f2b04cf1f9a5c1309cb546eaf552b2731a1f8",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
