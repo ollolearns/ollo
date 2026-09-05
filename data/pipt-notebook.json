@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T11:25:16.745Z",
+  "updatedAt": "2026-09-05T11:29:31.054Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1545,6 +1545,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/892d7ea5f32252f203f786ce2d863ea391aee921"
+    },
+    {
+      "id": "insight-58-radiant-barriers",
+      "order": 58,
+      "subject": "radiant barriers",
+      "title": "learning why one heat shield is not enough",
+      "question": "why can a shiny barrier reflect heat but still need insulation?",
+      "tried": [
+        "read which kind of heat a radiant barrier reflects",
+        "separated radiation from conduction and convection",
+        "looked at why reflective foil is paired with insulation"
+      ],
+      "learned": "a radiant barrier reduces heat transfer by reflecting thermal radiation with a low-emittance surface, often a thin aluminum foil. heat also travels by conduction and convection, so the reflective layer is often paired with insulation that slows those other routes.",
+      "nextQuestion": "when does radiation carry more heat than conduction or convection?",
+      "visualMode": "energy-budget",
+      "writtenAt": "2026-09-05T11:29:31.054Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/58-radiant-barriers.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/58-radiant-barriers.md",
+      "evidence": {
+        "sourceTitle": "Radiant barrier",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Radiant_barrier",
+        "retrievedAt": "2026-09-05T11:29:12.197Z",
+        "sourceSha256": "d7507c381f9bc95539a822b2b0344734ac8bcca1124175dfb4901d9b5de1cfd4",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
