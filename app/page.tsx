@@ -289,8 +289,8 @@ export default function Home() {
               <p>{latestNote}</p>
             </div>
             <div className="shared-note">
-              <span>same for everyone</span>
-              <p>everyone sees the same example.</p>
+              <span>scene note</span>
+              <p>the field changes with what pipt is learning.</p>
             </div>
           </aside>
         </div>
