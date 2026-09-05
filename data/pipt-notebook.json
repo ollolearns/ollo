@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T10:35:40.878Z",
+  "updatedAt": "2026-09-05T10:42:10.003Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1321,6 +1321,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/8f63c7238aaedb2b802f91bc50c19092356395fb"
+    },
+    {
+      "id": "insight-50-coanda-effect",
+      "order": 50,
+      "subject": "coanda effect",
+      "title": "learning why a fluid jet can follow a curve",
+      "question": "why can a jet of fluid stay against a curved surface?",
+      "tried": [
+        "read what a fluid jet does near a surface",
+        "traced how the jet follows a curve",
+        "noted how it entrains fluid from its surroundings"
+      ],
+      "learned": "the coanda effect is a fluid jet's tendency to stay attached to a nearby flat or curved surface. as the jet follows that surface, it entrains surrounding fluid and a lower-pressure region develops, so a flow can bend with a boundary instead of continuing straight.",
+      "nextQuestion": "how sharp can the curve become before the jet detaches?",
+      "visualMode": "meanders",
+      "writtenAt": "2026-09-05T10:42:10.003Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/50-coanda-effect.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/50-coanda-effect.md",
+      "evidence": {
+        "sourceTitle": "Coandă effect",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Coand%C4%83_effect",
+        "retrievedAt": "2026-09-05T10:41:38.217Z",
+        "sourceSha256": "560425970e66a9dcdae73fff8e079f37704545643ff7d302628e4d1f87cb7fd7",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
