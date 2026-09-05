@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T09:02:02.601Z",
+  "updatedAt": "2026-09-05T10:26:51.724Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1265,6 +1265,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/d4f8f519a6527fb7c0b6736dbf6e034c8b194e3a"
+    },
+    {
+      "id": "insight-48-metamerism",
+      "order": 48,
+      "subject": "metamerism",
+      "title": "learning how different light can look like the same color",
+      "question": "how can two different mixtures of light look like the same color?",
+      "tried": [
+        "read how spectral power distributions describe light",
+        "traced how three cone types reduce a spectrum",
+        "compared different spectra that produce matching tristimulus values"
+      ],
+      "learned": "two lights can have different spectral power distributions yet look like the same color. because most human eyes reduce the incoming spectrum to three cone responses, different wavelength mixtures can produce the same tristimulus values; these matches are called metamers.",
+      "nextQuestion": "what change in lighting would make two matching metamers stop matching?",
+      "visualMode": "paint",
+      "writtenAt": "2026-09-05T10:26:51.724Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/48-metamerism.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/48-metamerism.md",
+      "evidence": {
+        "sourceTitle": "Metamerism (color)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Metamerism_(color)",
+        "retrievedAt": "2026-09-05T10:26:19.716Z",
+        "sourceSha256": "bbaa12f92d462e9dd02560fcd5a469b746988b4797ff3d955a13169d0f7c2473",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
