@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T12:32:38.633Z",
+  "updatedAt": "2026-09-05T12:44:45.358Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1797,6 +1797,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/34a17ca1b7cc7a69f9b74cd3d1a0e69e8d589d62"
+    },
+    {
+      "id": "insight-67-trapped-light",
+      "order": 67,
+      "subject": "trapped light",
+      "title": "learning when light turns back",
+      "question": "when does light turn around instead of crossing a boundary?",
+      "tried": [
+        "followed a ray from water toward air",
+        "tilted its path until the boundary acted like a mirror",
+        "compared refraction with reflection into the first medium"
+      ],
+      "learned": "total internal reflection happens when a wave approaches a boundary from a slower medium toward a faster one at a sufficiently oblique angle. instead of refracting across, it is completely reflected back into the first medium.",
+      "nextQuestion": "can a curved boundary keep light circling inside?",
+      "visualMode": "parallax",
+      "writtenAt": "2026-09-05T12:44:45.358Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/67-trapped-light.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/67-trapped-light.md",
+      "evidence": {
+        "sourceTitle": "Total internal reflection",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Total_internal_reflection",
+        "retrievedAt": "2026-09-05T12:44:08.385Z",
+        "sourceSha256": "ed80e1aa766eccf9f36dcde9e479dc0a7121e9c71871deba961d19bec35ea137",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
