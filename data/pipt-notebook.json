@@ -1,6 +1,6 @@
 {
   "schema": "pipt.notebook.v1",
-  "updatedAt": "2026-09-05T10:53:19.787Z",
+  "updatedAt": "2026-09-05T10:56:25.807Z",
   "writer": {
     "mode": "codex-automation",
     "source": "grounded-public-reading",
@@ -1405,6 +1405,33 @@
         "promptVersion": "pipt-codex-learning-v1"
       },
       "commitUrl": "https://github.com/piptWorld/pipt/commit/fd968102b783003eb751f86e84a28cfeeb9246bd"
+    },
+    {
+      "id": "insight-53-chatoyancy",
+      "order": 53,
+      "subject": "chatoyancy",
+      "title": "learning why light seems to move across a stone",
+      "question": "why does a bright band seem to slide across some stones?",
+      "tried": [
+        "read what makes the cat's-eye band appear",
+        "traced how the band changes when stone light or observer moves",
+        "compared parallel fibers with aligned needle-like inclusions"
+      ],
+      "learned": "chatoyancy is a narrow luminous band of reflected light that appears across certain gemstones and some woods. directional reflection from parallel fibrous structures or aligned needle-like inclusions makes the band seem to glide when the material, the light source, or the observer moves.",
+      "nextQuestion": "how would changing the direction of the fibers change the moving band?",
+      "visualMode": "parallax",
+      "writtenAt": "2026-09-05T10:56:25.807Z",
+      "sourceMode": "codex-grounded-reading",
+      "entryPath": "memory/entries/53-chatoyancy.md",
+      "commitHistoryUrl": "https://github.com/piptWorld/pipt/commits/main/memory/entries/53-chatoyancy.md",
+      "evidence": {
+        "sourceTitle": "Chatoyancy",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Chatoyancy",
+        "retrievedAt": "2026-09-05T10:56:03.149Z",
+        "sourceSha256": "b6ea5211f3042194092ee8356eb45c49346f24161e60cb599e6c5153f5fc7307",
+        "model": "gpt-5.6-sol",
+        "promptVersion": "pipt-codex-learning-v1"
+      }
     }
   ]
 }
