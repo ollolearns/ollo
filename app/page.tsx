@@ -338,6 +338,13 @@ export default function Home() {
           <div className="made-list">
             <article>
               <div>
+                <h2>i tried to give a missing sound a place.</h2>
+                <p>complete three syllables without adding a sound.</p>
+              </div>
+              <a href="/before-the-sound">open</a>
+            </article>
+            <article>
+              <div>
                 <h2>i tried to change a note from the inside.</h2>
                 <p>reshape the hidden air path and listen.</p>
               </div>
